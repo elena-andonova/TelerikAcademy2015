@@ -12,13 +12,14 @@ namespace _08.MaxSum
         {
             //Write a program that finds the sequence of maximal sum in given array.
 
-            int[] nums = new int[] { 2, 3, -6, -1, 2, -1, 6, 4, -8, 8 };
+            int[] nums = Console.ReadLine().Split(',').Select(int.Parse).ToArray(); //{ 2, 3, -6, -1, 2, -1, 6, 4, -8, 8 };
 
             int counter = 0;
            // int maxCount = 0;
             int sum = nums[0];
             int maxSum = nums[0];
             int lastIndex = 0;
+            int firstIndex = 0;
 
             for (int i = 0; i < nums.Length; i++)
             {
@@ -29,21 +30,24 @@ namespace _08.MaxSum
                     maxSum = sum;
                     counter++;
                     lastIndex = i;
-                 } 
-                else
+                    firstIndex = lastIndex - counter;
+                } 
+                if (nums[i] > sum)
                 {
                     sum = nums[i];
                     counter = 0;
                 }
             }
-            Console.WriteLine(lastIndex);
-            Console.WriteLine(counter);
-            int index = lastIndex - counter;
-            //for (int i = index; i <= lastIndex; i++)
-            //{
-            //    Console.Write("{0} ", nums[i]);
-            //}
-            //Console.WriteLine();
+            //Console.WriteLine(firstIndex);
+            //Console.WriteLine(lastIndex);
+            //Console.WriteLine(counter);
+            //int index = lastIndex - counter;
+
+            for (int i = firstIndex; i <= lastIndex; i++)
+            {
+                Console.Write("{0} ", nums[i]);
+            }
+            Console.WriteLine();
         }
     }
 }

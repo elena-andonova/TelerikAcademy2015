@@ -1,0 +1,5 @@
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\07.SelectionSort\bin\Debug\07.SelectionSort.exe.config
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\07.SelectionSort\bin\Debug\07.SelectionSort.exe
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\07.SelectionSort\bin\Debug\07.SelectionSort.pdb
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\07.SelectionSort\obj\Debug\07.SelectionSort.exe
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\07.SelectionSort\obj\Debug\07.SelectionSort.pdb

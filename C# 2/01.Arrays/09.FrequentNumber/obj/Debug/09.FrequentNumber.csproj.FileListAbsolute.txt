@@ -1,0 +1,5 @@
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\09.FrequentNumber\bin\Debug\09.FrequentNumber.exe.config
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\09.FrequentNumber\bin\Debug\09.FrequentNumber.exe
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\09.FrequentNumber\bin\Debug\09.FrequentNumber.pdb
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\09.FrequentNumber\obj\Debug\09.FrequentNumber.exe
+D:\Telerik Academy\Homeworks\C# 2\01.Arrays\09.FrequentNumber\obj\Debug\09.FrequentNumber.pdb
