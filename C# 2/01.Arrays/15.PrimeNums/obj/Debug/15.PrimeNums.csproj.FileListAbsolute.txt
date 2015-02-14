@@ -1,0 +1,6 @@
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.PrimeNums\bin\Debug\15.PrimeNums.exe.config
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.PrimeNums\bin\Debug\15.PrimeNums.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.PrimeNums\bin\Debug\15.PrimeNums.pdb
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.PrimeNums\obj\Debug\15.PrimeNums.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.PrimeNums\obj\Debug\15.PrimeNums.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.PrimeNums\obj\Debug\15.PrimeNums.pdb

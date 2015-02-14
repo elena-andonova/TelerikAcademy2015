@@ -1,0 +1,5 @@
+D:\Telerik Academy\C# 2\HW\01.Arrays\3.CharArrays\bin\Debug\3.CharArrays.exe.config
+D:\Telerik Academy\C# 2\HW\01.Arrays\3.CharArrays\bin\Debug\3.CharArrays.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\3.CharArrays\bin\Debug\3.CharArrays.pdb
+D:\Telerik Academy\C# 2\HW\01.Arrays\3.CharArrays\obj\Debug\3.CharArrays.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\3.CharArrays\obj\Debug\3.CharArrays.pdb

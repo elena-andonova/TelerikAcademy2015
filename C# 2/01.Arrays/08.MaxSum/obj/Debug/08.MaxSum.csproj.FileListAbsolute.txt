@@ -1,0 +1,5 @@
+D:\Telerik Academy\C# 2\HW\01.Arrays\08.MaxSum\bin\Debug\08.MaxSum.exe.config
+D:\Telerik Academy\C# 2\HW\01.Arrays\08.MaxSum\bin\Debug\08.MaxSum.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\08.MaxSum\bin\Debug\08.MaxSum.pdb
+D:\Telerik Academy\C# 2\HW\01.Arrays\08.MaxSum\obj\Debug\08.MaxSum.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\08.MaxSum\obj\Debug\08.MaxSum.pdb

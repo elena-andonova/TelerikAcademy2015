@@ -1,0 +1,5 @@
+c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BankAccountData\bin\Debug\BankAccountData.exe.config
+c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BankAccountData\bin\Debug\BankAccountData.exe
+c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BankAccountData\bin\Debug\BankAccountData.pdb
+c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BankAccountData\obj\Debug\BankAccountData.exe
+c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BankAccountData\obj\Debug\BankAccountData.pdb

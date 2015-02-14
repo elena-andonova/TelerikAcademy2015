@@ -1,0 +1,6 @@
+D:\Telerik Academy\C# 2\HW\01.Arrays\06.MaxKSum\bin\Debug\06.MaxKSum.exe.config
+D:\Telerik Academy\C# 2\HW\01.Arrays\06.MaxKSum\bin\Debug\06.MaxKSum.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\06.MaxKSum\bin\Debug\06.MaxKSum.pdb
+D:\Telerik Academy\C# 2\HW\01.Arrays\06.MaxKSum\obj\Debug\06.MaxKSum.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\C# 2\HW\01.Arrays\06.MaxKSum\obj\Debug\06.MaxKSum.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\06.MaxKSum\obj\Debug\06.MaxKSum.pdb

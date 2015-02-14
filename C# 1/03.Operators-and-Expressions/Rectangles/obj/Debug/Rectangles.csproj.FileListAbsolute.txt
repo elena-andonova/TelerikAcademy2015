@@ -1,0 +1,6 @@
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\Rectangles\bin\Debug\Rectangles.exe.config
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\Rectangles\bin\Debug\Rectangles.exe
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\Rectangles\bin\Debug\Rectangles.pdb
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\Rectangles\obj\Debug\Rectangles.csprojResolveAssemblyReference.cache
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\Rectangles\obj\Debug\Rectangles.exe
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\Rectangles\obj\Debug\Rectangles.pdb

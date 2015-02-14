@@ -1,0 +1,5 @@
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\bin\Debug\02.NumbersNotDivisibleBy3And7.exe.config
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\bin\Debug\02.NumbersNotDivisibleBy3And7.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\bin\Debug\02.NumbersNotDivisibleBy3And7.pdb
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\obj\Debug\02.NumbersNotDivisibleBy3And7.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\obj\Debug\02.NumbersNotDivisibleBy3And7.pdb

@@ -1,0 +1,9 @@
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitExchangeAdvanced\bin\Debug\BitExchangeAdvanced.exe.config
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitExchangeAdvanced\bin\Debug\BitExchangeAdvanced.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitExchangeAdvanced\bin\Debug\BitExchangeAdvanced.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitExchangeAdvanced\obj\Debug\BitExchangeAdvanced.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitExchangeAdvanced\obj\Debug\BitExchangeAdvanced.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitExchangeAdvanced\obj\Debug\BitExchangeAdvanced.csprojResolveAssemblyReference.cache
+C:\Users\eLa\Documents\Visual Studio 2013\Projects\03.Operators-and-Expressions\BitExchangeAdvanced\bin\Debug\BitExchangeAdvanced.exe.config
+C:\Users\eLa\Documents\Visual Studio 2013\Projects\03.Operators-and-Expressions\BitExchangeAdvanced\obj\Debug\BitExchangeAdvanced.exe
+C:\Users\eLa\Documents\Visual Studio 2013\Projects\03.Operators-and-Expressions\BitExchangeAdvanced\obj\Debug\BitExchangeAdvanced.pdb

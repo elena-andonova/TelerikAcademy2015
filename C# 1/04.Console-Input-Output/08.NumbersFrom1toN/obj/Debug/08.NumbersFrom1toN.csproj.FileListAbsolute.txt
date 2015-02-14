@@ -1,0 +1,6 @@
+C:\Users\eLa\documents\visual studio 2013\Projects\04.Console-Input-Output\08.NumbersFrom1toN\bin\Debug\08.NumbersFrom1toN.exe.config
+C:\Users\eLa\documents\visual studio 2013\Projects\04.Console-Input-Output\08.NumbersFrom1toN\bin\Debug\08.NumbersFrom1toN.exe
+C:\Users\eLa\documents\visual studio 2013\Projects\04.Console-Input-Output\08.NumbersFrom1toN\bin\Debug\08.NumbersFrom1toN.pdb
+C:\Users\eLa\documents\visual studio 2013\Projects\04.Console-Input-Output\08.NumbersFrom1toN\obj\Debug\08.NumbersFrom1toN.csprojResolveAssemblyReference.cache
+C:\Users\eLa\documents\visual studio 2013\Projects\04.Console-Input-Output\08.NumbersFrom1toN\obj\Debug\08.NumbersFrom1toN.exe
+C:\Users\eLa\documents\visual studio 2013\Projects\04.Console-Input-Output\08.NumbersFrom1toN\obj\Debug\08.NumbersFrom1toN.pdb

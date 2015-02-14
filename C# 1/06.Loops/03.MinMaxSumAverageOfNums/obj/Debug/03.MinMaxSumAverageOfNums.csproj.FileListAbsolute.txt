@@ -1,0 +1,5 @@
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\03.MinMaxSumAverageOfNums\bin\Debug\03.MinMaxSumAverageOfNums.exe.config
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\03.MinMaxSumAverageOfNums\bin\Debug\03.MinMaxSumAverageOfNums.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\03.MinMaxSumAverageOfNums\bin\Debug\03.MinMaxSumAverageOfNums.pdb
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\03.MinMaxSumAverageOfNums\obj\Debug\03.MinMaxSumAverageOfNums.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\03.MinMaxSumAverageOfNums\obj\Debug\03.MinMaxSumAverageOfNums.pdb

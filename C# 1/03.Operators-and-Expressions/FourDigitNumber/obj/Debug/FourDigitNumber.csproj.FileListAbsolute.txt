@@ -1,0 +1,6 @@
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.exe.config
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.exe
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\FourDigitNumber\bin\Debug\FourDigitNumber.pdb
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\FourDigitNumber\obj\Debug\FourDigitNumber.csprojResolveAssemblyReference.cache
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\FourDigitNumber\obj\Debug\FourDigitNumber.exe
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\FourDigitNumber\obj\Debug\FourDigitNumber.pdb

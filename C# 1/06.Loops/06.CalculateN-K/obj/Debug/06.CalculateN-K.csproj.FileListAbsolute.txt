@@ -1,0 +1,5 @@
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\bin\Debug\06.CalculateN-K.exe.config
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\bin\Debug\06.CalculateN-K.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\bin\Debug\06.CalculateN-K.pdb
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\obj\Debug\06.CalculateN-K.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\obj\Debug\06.CalculateN-K.pdb

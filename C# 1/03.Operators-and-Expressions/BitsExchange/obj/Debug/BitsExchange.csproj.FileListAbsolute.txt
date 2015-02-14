@@ -1,0 +1,6 @@
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitsExchange\bin\Debug\BitsExchange.exe.config
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitsExchange\bin\Debug\BitsExchange.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitsExchange\bin\Debug\BitsExchange.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitsExchange\obj\Debug\BitsExchange.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitsExchange\obj\Debug\BitsExchange.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\BitsExchange\obj\Debug\BitsExchange.pdb

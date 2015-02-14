@@ -1,0 +1,6 @@
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInCircle\bin\Debug\PointInCircle.exe.config
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInCircle\bin\Debug\PointInCircle.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInCircle\bin\Debug\PointInCircle.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInCircle\obj\Debug\PointInCircle.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInCircle\obj\Debug\PointInCircle.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInCircle\obj\Debug\PointInCircle.pdb

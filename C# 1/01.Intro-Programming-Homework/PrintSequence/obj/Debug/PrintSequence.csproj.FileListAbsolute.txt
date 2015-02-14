@@ -1,0 +1,5 @@
+c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintSequence\bin\Debug\PrintSequence.exe.config
+c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintSequence\bin\Debug\PrintSequence.exe
+c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintSequence\bin\Debug\PrintSequence.pdb
+c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintSequence\obj\Debug\PrintSequence.exe
+c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\PrintSequence\obj\Debug\PrintSequence.pdb

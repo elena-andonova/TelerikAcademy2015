@@ -1,0 +1,5 @@
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInsideCircleOutsideRectangle\bin\Debug\PointInsideCircleOutsideRectangle.exe.config
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInsideCircleOutsideRectangle\bin\Debug\PointInsideCircleOutsideRectangle.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInsideCircleOutsideRectangle\bin\Debug\PointInsideCircleOutsideRectangle.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInsideCircleOutsideRectangle\obj\Debug\PointInsideCircleOutsideRectangle.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PointInsideCircleOutsideRectangle\obj\Debug\PointInsideCircleOutsideRectangle.pdb

@@ -1,0 +1,11 @@
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe.config
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.pdb
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.exe
+c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe.config
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PrimeNumberCheck\bin\Debug\PrimeNumberCheck.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\PrimeNumberCheck\obj\Debug\PrimeNumberCheck.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\18.TrailingZeroesInNFact\bin\Debug\18.TrailingZeroesInNFact.exe.config
+C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\18.TrailingZeroesInNFact\obj\Debug\18.TrailingZeroesInNFact.csprojResolveAssemblyReference.cache
+C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\18.TrailingZeroesInNFact\bin\Debug\18.TrailingZeroesInNFact.exe
+C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\18.TrailingZeroesInNFact\bin\Debug\18.TrailingZeroesInNFact.pdb
+C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\18.TrailingZeroesInNFact\obj\Debug\18.TrailingZeroesInNFact.exe
+C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\18.TrailingZeroesInNFact\obj\Debug\18.TrailingZeroesInNFact.pdb

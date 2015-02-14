@@ -1,0 +1,5 @@
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBit3\bin\Debug\ExtractBit3.exe.config
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBit3\bin\Debug\ExtractBit3.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBit3\bin\Debug\ExtractBit3.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBit3\obj\Debug\ExtractBit3.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBit3\obj\Debug\ExtractBit3.pdb

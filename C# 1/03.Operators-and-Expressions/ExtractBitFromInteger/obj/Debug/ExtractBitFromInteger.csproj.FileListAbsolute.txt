@@ -1,0 +1,5 @@
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBitFromInteger\bin\Debug\ExtractBitFromInteger.exe.config
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBitFromInteger\bin\Debug\ExtractBitFromInteger.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBitFromInteger\bin\Debug\ExtractBitFromInteger.pdb
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBitFromInteger\obj\Debug\ExtractBitFromInteger.exe
+D:\Telerik Academy\C# 1\Homeworks\Operators-and-Expressions\ExtractBitFromInteger\obj\Debug\ExtractBitFromInteger.pdb

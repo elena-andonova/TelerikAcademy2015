@@ -1,0 +1,43 @@
+1)Microsoft Visual Studio
+
+Visual Studio is Microsoft's IDE. 
+It has Intellisense, automatic code formatting.
+Visual Basic has some support for non-Microsoft languages such as Python and Ruby, but you'll have to install those services yourself. 
+
+
+2)Eclipse
+
+This is a free fully customizable and extensible IDE, which also compiles code.
+
+The languages that are possible to use extend past the .Net Framework. 
+Besides being the number on way to develop Android applications via the Android SDK, it is fully extensible to use languages such as Ruby, C, C++ and many many more.
+You could use it on Linux as well as on Windows operating systems.
+
+
+3)NetBeans
+
+This program is extensible and free, and it compiles code which is a bonus. 
+It comes with a Java server called GlassFish that you could deploy on your computer for your testing environment. 
+This server is the second biggest server for Java next to WebSphere.
+
+
+4)Kate
+
+Kate is a text editor. Not to be looked down upon as it does a lot more than a regular text edit can do and that is what makes this an indispensable product.
+It uses Linux and offers the ability of code folding. 
+It doesn't compile code.
+   
+
+5) gedit
+
+gedit is the official editor of the gnome desktop and comes installed once the system is setup. 
+Very useful for the user that is casually editing code and not undertaking major projects. 
+gedit offers the ability to highlight your code and figure out where the bugs are by giving you a fresh perspective.
+It doesn't compile code.
+    
+
+6)XCode
+
+This IDE is just for creating iOS and Mac apps. 
+This IDE includes an iPhone simulator and GUI builder, too.
+

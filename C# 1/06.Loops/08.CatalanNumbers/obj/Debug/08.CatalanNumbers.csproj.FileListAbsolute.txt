@@ -1,0 +1,5 @@
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe.config
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\08.CatalanNumbers\bin\Debug\08.CatalanNumbers.pdb
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.exe
+c:\users\ela\documents\visual studio 2013\Projects\06.Loops\08.CatalanNumbers\obj\Debug\08.CatalanNumbers.pdb

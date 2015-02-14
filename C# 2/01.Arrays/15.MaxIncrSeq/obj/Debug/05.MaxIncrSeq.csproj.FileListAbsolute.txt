@@ -1,0 +1,6 @@
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.MaxIncrSeq\bin\Debug\15.MaxIncrSeq.exe.config
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.MaxIncrSeq\obj\Debug\15.MaxIncrSeq.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.MaxIncrSeq\obj\Debug\15.MaxIncrSeq.pdb
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.MaxIncrSeq\bin\Debug\15.MaxIncrSeq.exe
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.MaxIncrSeq\bin\Debug\15.MaxIncrSeq.pdb
+D:\Telerik Academy\C# 2\HW\01.Arrays\15.MaxIncrSeq\obj\Debug\05.MaxIncrSeq.csprojResolveAssemblyReference.cache

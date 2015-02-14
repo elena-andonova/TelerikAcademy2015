@@ -1,0 +1,5 @@
+c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\02.PrintCompanyInfo\bin\Debug\02.PrintCompanyInfo.exe.config
+c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\02.PrintCompanyInfo\bin\Debug\02.PrintCompanyInfo.exe
+c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\02.PrintCompanyInfo\bin\Debug\02.PrintCompanyInfo.pdb
+c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\02.PrintCompanyInfo\obj\Debug\02.PrintCompanyInfo.exe
+c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\02.PrintCompanyInfo\obj\Debug\02.PrintCompanyInfo.pdb
