@@ -11,8 +11,8 @@ namespace _01.FillTheMatrix
         static void Main()
         {
             //Write a program that fills and prints a matrix of size (n, n) as shown below:
-
-            int n = 4;
+            Console.Write("For a matrix[n,n], enter a number for n: ");
+            int n = int.Parse(Console.ReadLine());
             if (n <= 0)
             {
                 Console.WriteLine("Not a valid number! n must be > 0!");
@@ -32,7 +32,7 @@ namespace _01.FillTheMatrix
                         direction = "down";
                         for (int number = 1; number <= max; number++)
                         {
-                            if (direction == "down" && (row > n - 1 || matrix[row, col] != 0))
+                            if (direction == "down" && row > n - 1)
                             {
                                 row = 0;
                                 col++;
@@ -44,7 +44,6 @@ namespace _01.FillTheMatrix
                                 row++;
                             }
                         }
-
                         for (row = 0; row < matrix.GetLength(0); row++)
                         {
                             for (col = 0; col < matrix.GetLength(1); col++)
@@ -84,7 +83,6 @@ namespace _01.FillTheMatrix
                                 row--;
                             }
                         }
-
                         for (row = 0; row < matrix.GetLength(0); row++)
                         {
                             for (col = 0; col < matrix.GetLength(1); col++)
@@ -99,13 +97,38 @@ namespace _01.FillTheMatrix
                     {
                         row = n - 1;
                         col = 0;
-                        direction = "up";
-
+                        direction = "diagonal-down";
                         for (int i = 1; i <= max; i++)
                         {
                             matrix[row, col] = i;
-                            row--;
-
+                            if (direction == "diagonal-down")
+                            {
+                                row++;
+                                col++;
+                            }
+                            if (direction == "diagonal-down" && (row > n - 1 && col <= n - 1))
+                            {
+                                row =  (n - 1) - col;
+                                col = 0;
+                            }
+                            if (direction == "diagonal-down" && (row > n - 1 && col > n - 1))
+                            {
+                                row = 0;
+                                col = 1;
+                            }
+                            if (direction == "diagonal-down" && (row <= n - 1 && col > n - 1))
+                            {
+                                col = (n - 1) - row + 2;
+                                row = 0;
+                            }
+                        }
+                        for (row = 0; row < matrix.GetLength(0); row++)
+                        {
+                            for (col = 0; col < matrix.GetLength(1); col++)
+                            {
+                                Console.Write("{0, 2} ", matrix[row, col]);
+                            }
+                            Console.WriteLine();
                         }
                     }
                     break;
