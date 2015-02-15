@@ -16,7 +16,33 @@ namespace _03.SequenceInMatrix
             string[,] matrix = {{"ha", 	"fifi", "ho", "hi"},
                                 {"fo", "ha", "hi", "xx"},
                                 {"xxx", "ho", "ha", "xx"}};
-            
+            int diagCount = 1;
+            int diagCountMax = 1;
+            for (int r = 0; r < matrix.GetLength(0) - 1; r++)
+            {
+                for (int c = 0; c < matrix.GetLength(1) - 1; c++)
+                {
+                    for (int r2 = r + 1; r2 < matrix.GetLength(0); r2++)
+                    {
+                        for (int c2 = c + 1; c2 < matrix.GetLength(1); c2++)
+                        {
+                            if (matrix[r,c] == matrix[r2, c2])
+                            {
+                                diagCount++;
+                            }
+                            else
+                            {
+                                if (diagCountMax < diagCount)
+                                {
+                                    diagCountMax = diagCount;
+                                }
+                                diagCount = 0;
+                            }
+                        }
+                    }
+                }
+            }
+            Console.WriteLine(diagCountMax);
         }
     }
 }

@@ -24,29 +24,34 @@ namespace _04.BinarySearch
                 nums[i] = int.Parse(Console.ReadLine());
             }
             Array.Sort(nums);
-            string sortedArr = string.Join(", ", nums);
+            //string sortedArr = string.Join(", ", nums);
             //Console.WriteLine(sortedArr);
             int kIndex = Array.BinarySearch(nums, k);
             int searchedIndex = 0;
             //Console.WriteLine(kIndex);
             if (kIndex < 0)
             {
-                searchedIndex = ~kIndex;
+                searchedIndex = (~kIndex) - 1;
             }
             else
             {
                 searchedIndex = kIndex;
             }
-            //Console.WriteLine(searchedIndex);
+
             if (searchedIndex >= nums.Length)
             {
-                Console.WriteLine("There are no elements larger than the searched value K!");
+                searchedIndex = nums.Length - 1;
+                Console.WriteLine("The largest number in the array which is <= K: {0}", nums[searchedIndex]);
+            }
+            if (searchedIndex < 0)
+            {
+                Console.WriteLine("There is no number in the array which is <= K!");
             }
             else
             {
                 Console.WriteLine("The largest number in the array which is <= K: {0}", nums[searchedIndex]);
             }
-            
+            //Console.WriteLine(searchedIndex);
         }
     }
 }

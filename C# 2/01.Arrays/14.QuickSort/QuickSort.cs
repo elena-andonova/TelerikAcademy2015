@@ -10,7 +10,7 @@ namespace _14.QuickSort
     {
         static void Main()
         {
-            int[] nums = { 1, 5, 2, 3, 10, 9, 8, 7 };
+            int[] nums = Console.ReadLine().Split(',').Select(int.Parse).ToArray(); //{ 1, 5, 2, 3, 10, 9, 8, 7 };
             quickSortMethod(nums, 0, nums.Length - 1);
             string strFortPrint = string.Join(", ", nums);
             Console.WriteLine(strFortPrint);

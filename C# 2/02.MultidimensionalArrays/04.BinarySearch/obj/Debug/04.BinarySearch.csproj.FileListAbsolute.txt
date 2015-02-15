@@ -3,3 +3,4 @@ D:\Telerik Academy\Homeworks\C# 2\02.MultidimensionalArrays\04.BinarySearch\bin\
 D:\Telerik Academy\Homeworks\C# 2\02.MultidimensionalArrays\04.BinarySearch\bin\Debug\04.BinarySearch.pdb
 D:\Telerik Academy\Homeworks\C# 2\02.MultidimensionalArrays\04.BinarySearch\obj\Debug\04.BinarySearch.exe
 D:\Telerik Academy\Homeworks\C# 2\02.MultidimensionalArrays\04.BinarySearch\obj\Debug\04.BinarySearch.pdb
+D:\Telerik Academy\Homeworks\C# 2\02.MultidimensionalArrays\04.BinarySearch\obj\Debug\04.BinarySearch.csprojResolveAssemblyReference.cache

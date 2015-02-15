@@ -11,10 +11,23 @@ namespace _05.SortByStringLength
         static void Main()
         {
             //You are given an array of strings. Write a method that sorts the array by the length of its elements (the number of characters composing them).
-            string[] arr = { "You", "are", "given", "an", "array", "of", "strings" };
-            string line = "edno";
-            Console.WriteLine(line.Length); 
-
+            string[] arr = { "are", "given", "an", "strings", "characters", "method", "its" };
+            string temp = "";
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                for (int j = i; j < arr.Length; j++)
+                {
+                    if (arr[j].Length < arr[i].Length)
+                    {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+            //Array.Sort(arr);
+            string sortedArr = string.Join(", ", arr);
+            Console.WriteLine(sortedArr);
         }
     }
 }
