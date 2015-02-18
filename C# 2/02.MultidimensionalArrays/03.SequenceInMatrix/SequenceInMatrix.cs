@@ -8,41 +8,162 @@ namespace _03.SequenceInMatrix
 {
     class SequenceInMatrix
     {
+        static bool isDiagCase(string[,] matrix, int row, int col)
+        {
+            if ((row + 1 == matrix.GetLength(0)) || (col + 1 == matrix.GetLength(1)))
+            {
+                return false;
+            }
+            if (matrix[row, col] == matrix[row + 1, col + 1])
+            {
+                return true;
+            }
+            return false;
+        }
+        static bool isRowCase(string[,] matrix, int row, int col)
+        {
+            if (col + 1 == matrix.GetLength(1))
+            {
+                return false;
+            }
+            if (matrix[row, col] == matrix[row, col + 1])
+            {
+                return true;
+            }
+            return false;
+        }
+        static bool isColCase(string[,] matrix, int row, int col)
+        {
+            if (row + 1 == matrix.GetLength(0))
+            {
+                return false;
+            }
+            if (matrix[row, col] == matrix[row + 1, col])
+            {
+                return true;
+            }
+            return false;
+        }
         static void Main()
         {
-    //We are given a matrix of strings of size N x M. Sequences in the matrix we define as sets of several neighbour elements located on the same line, column or diagonal.
-    //Write a program that finds the longest sequence of equal strings in the matrix.
-
-            string[,] matrix = {{"ha", 	"fifi", "ho", "hi"},
-                                {"fo", "ha", "hi", "xx"},
-                                {"xxx", "ho", "ha", "xx"}};
-            int diagCount = 1;
-            int diagCountMax = 1;
-            for (int r = 0; r < matrix.GetLength(0) - 1; r++)
+            //We are given a matrix of strings of size N x M. Sequences in the matrix we define as sets of several neighbour elements located on the same line, column or diagonal.
+            //Write a program that finds the longest sequence of equal strings in the matrix.
+            /*
+           * {"s", "qq", "s"},
+           {"pp", "pp", "s"},
+           {"pp", "qq", "s"},
+           {"ha", "fifi", "ho", "hi"},
+           {"fo", "ha", "hi", "xx"},
+           {"xxx", "ho", "ha", "xx"}
+           */
+            string[,] matrix = {
+                                {"s", "qq", "s"},
+                                {"pp", "pp", "s"},
+                                {"pp", "qq", "s"}
+                                };
+            Dictionary<string, int> strings = new Dictionary<string, int>();
+            List<string> stringsList = new List<string> { };
+            for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                for (int c = 0; c < matrix.GetLength(1) - 1; c++)
+                for (int col = 0; col < matrix.GetLength(1); col++)
                 {
-                    for (int r2 = r + 1; r2 < matrix.GetLength(0); r2++)
+                    if (!strings.ContainsKey(matrix[row, col]))
                     {
-                        for (int c2 = c + 1; c2 < matrix.GetLength(1); c2++)
+                        stringsList.Add(matrix[row, col]);
+                        strings.Add(matrix[row, col], 0);
+                    }
+                }
+            }
+            for (int i = 0; i < stringsList.Count; i++)
+            {
+                int diagCounter = 1;
+                int diagMAXCounter = 1;
+                int rowCounter = 1;
+                int rowMAXCounter = 1;
+                int colCounter = 1;
+                int colMAXCounter = 1;
+                for (int row = 0; row < matrix.GetLength(0); row++)
+                {
+                    for (int col = 0; col < matrix.GetLength(1); col++)
+                    {
+                        if (matrix[row, col] == stringsList[i])
                         {
-                            if (matrix[r,c] == matrix[r2, c2])
+                            bool answerDiag = isDiagCase(matrix, row, col);
+                            if (answerDiag)
                             {
-                                diagCount++;
+                                diagCounter++;
+                                if (diagCounter > diagMAXCounter)
+                                {
+                                    diagMAXCounter = diagCounter;
+                                }
                             }
                             else
                             {
-                                if (diagCountMax < diagCount)
+                                if (diagCounter > diagMAXCounter)
                                 {
-                                    diagCountMax = diagCount;
+                                    diagMAXCounter = diagCounter;
                                 }
-                                diagCount = 0;
+                                diagCounter = 1;
+                            }
+                            bool answerRow = isRowCase(matrix, row, col);
+                            if (answerRow)
+                            {
+                                rowCounter++;
+                                if (rowCounter > rowMAXCounter)
+                                {
+                                    rowMAXCounter = rowCounter;
+                                }
+                            }
+                            else
+                            {
+                                if (rowCounter > rowMAXCounter)
+                                {
+                                    rowMAXCounter = rowCounter;
+                                }
+                                rowCounter = 1;
+                            }
+                            bool answerCol = isColCase(matrix, row, col);
+                            if (answerCol)
+                            {
+                                colCounter++;
+                                if (colCounter > colMAXCounter)
+                                {
+                                    colMAXCounter = colCounter;
+                                }
+                            }
+                            else
+                            {
+                                if (colCounter > colMAXCounter)
+                                {
+                                    colMAXCounter = colCounter;
+                                }
+                                colCounter = 1;
                             }
                         }
                     }
                 }
+                int theMaxCount = (Math.Max(Math.Max(diagMAXCounter, rowMAXCounter), colMAXCounter));
+                if (theMaxCount > strings[stringsList[i]])
+                {
+                    strings[stringsList[i]] = theMaxCount;
+                }
             }
-            Console.WriteLine(diagCountMax);
+            foreach (KeyValuePair<string, int> kvp in strings)
+            {
+                Console.WriteLine("Key = {0}, Value = {1}",
+                kvp.Key, kvp.Value);
+            }
+            int theMaxValue = 0;
+            string theMaxValueString = "";
+            foreach (KeyValuePair<string, int> kvp in strings)
+            {
+                if (kvp.Value > theMaxValue)
+                {
+                    theMaxValue = kvp.Value;
+                    theMaxValueString = kvp.Key;
+                }
+            }
+            Console.WriteLine("theMaxValueString = {0}, theMaxValue = {1}", theMaxValueString, theMaxValue);
         }
     }
 }

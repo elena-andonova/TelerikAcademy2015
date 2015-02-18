@@ -1,0 +1,5 @@
+D:\Telerik Academy\C# 2\HW\03.Methods\03.EnglishDigit\bin\Debug\03.EnglishDigit.exe.config
+D:\Telerik Academy\C# 2\HW\03.Methods\03.EnglishDigit\bin\Debug\03.EnglishDigit.exe
+D:\Telerik Academy\C# 2\HW\03.Methods\03.EnglishDigit\bin\Debug\03.EnglishDigit.pdb
+D:\Telerik Academy\C# 2\HW\03.Methods\03.EnglishDigit\obj\Debug\03.EnglishDigit.exe
+D:\Telerik Academy\C# 2\HW\03.Methods\03.EnglishDigit\obj\Debug\03.EnglishDigit.pdb
