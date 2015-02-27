@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.LeapYear", "01.LeapYear\01.LeapYear.csproj", "{A289B0CE-6548-431A-8AA9-56164B3E8DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.RandomNumbers", "02.RandomNumbers\02.RandomNumbers.csproj", "{F31DD3A3-3608-4304-9B22-41BA5236F259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DayOfWeek", "03.DayOfWeek\03.DayOfWeek.csproj", "{945CC4C6-6208-4CEB-89BA-B31E25A3621A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.TriangleSurface", "04.TriangleSurface\04.TriangleSurface.csproj", "{BC5798C6-3667-4EDE-A4EF-91D0F429A231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Workdays", "05.Workdays\05.Workdays.csproj", "{299A79EE-2792-4FEA-8778-E0AF86A189F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SumIntegers", "06.SumIntegers\06.SumIntegers.csproj", "{3263F408-331A-42E8-9A86-53194C5BF6A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A289B0CE-6548-431A-8AA9-56164B3E8DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A289B0CE-6548-431A-8AA9-56164B3E8DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A289B0CE-6548-431A-8AA9-56164B3E8DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A289B0CE-6548-431A-8AA9-56164B3E8DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31DD3A3-3608-4304-9B22-41BA5236F259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31DD3A3-3608-4304-9B22-41BA5236F259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31DD3A3-3608-4304-9B22-41BA5236F259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31DD3A3-3608-4304-9B22-41BA5236F259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945CC4C6-6208-4CEB-89BA-B31E25A3621A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945CC4C6-6208-4CEB-89BA-B31E25A3621A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945CC4C6-6208-4CEB-89BA-B31E25A3621A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945CC4C6-6208-4CEB-89BA-B31E25A3621A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5798C6-3667-4EDE-A4EF-91D0F429A231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5798C6-3667-4EDE-A4EF-91D0F429A231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5798C6-3667-4EDE-A4EF-91D0F429A231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5798C6-3667-4EDE-A4EF-91D0F429A231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299A79EE-2792-4FEA-8778-E0AF86A189F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299A79EE-2792-4FEA-8778-E0AF86A189F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299A79EE-2792-4FEA-8778-E0AF86A189F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299A79EE-2792-4FEA-8778-E0AF86A189F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3263F408-331A-42E8-9A86-53194C5BF6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3263F408-331A-42E8-9A86-53194C5BF6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3263F408-331A-42E8-9A86-53194C5BF6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3263F408-331A-42E8-9A86-53194C5BF6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

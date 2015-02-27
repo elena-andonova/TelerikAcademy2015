@@ -1,0 +1,18 @@
+﻿Strings are immutable sequences of characters (instances of System.String)
+Declared by the keyword string in C#
+Can be initialized by string literals
+
+Most important string processing members are:
+
+Length, 
+this[], 
+Compare(str1, str2), 
+IndexOf(str), 
+LastIndexOf(str), 
+Substring(startIndex, length), 
+Replace(oldStr, newStr), 
+Remove(startIndex, 
+length), 
+ToLower(), 
+ToUpper(), 
+Trim()

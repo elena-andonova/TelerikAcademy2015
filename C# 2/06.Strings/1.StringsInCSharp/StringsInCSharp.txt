@@ -1,0 +1,66 @@
+﻿What is a string?
+
+A string is basically a sequence of characters. Each character is a Unicode character in the range U+0000 to U+FFFF. The string type has the following characteristics:
+
+It is a reference type
+    It's a common misconception that string is a value type. That's because its immutability (see next point) makes it act sort of like a value type. It actually acts like a normal reference type. 
+It's immutable
+    You can never actually change the contents of a string, at least with safe code which doesn't use reflection. Because of this, you often end up changing the value of a string variable. For instance, the code s = s.Replace ("foo", "bar"); doesn't change the contents of the string that s originally referred to - it just sets the value of s to a new string, which is a copy of the old string but with "foo" replaced by "bar". 
+It can contain nulls
+    C programmers are used to strings being sequences of characters ending in '\0', the nul or null character. In .NET, strings can contain null characters with no problems at all as far as the string methods themselves are concerned. However, other classes (for instance many of the Windows Forms ones) may well think that the string finishes at the first null character - if your string ever appears to be truncated oddly, that could be the problem. 
+It overloads the == operator
+    When the == operator is used to compare two strings, the Equals method is called, which checks for the equality of the contents of the strings rather than the references themselves. For instance, "hello".Substring(0, 4)=="hell" is true, even though the references on the two sides of the operator are different (they refer to two different string objects, which both contain the same character sequence). Note that operator overloading only works here if both sides of the operator are string expressions at compile time - operators aren't applied polymorphically. If either side of the operator is of type object as far as the compiler is concerned, the normal == operator will be applied, and simple reference equality will be tested. 
+	
+Constructor. 
+Strings are often reused, and passed around within a program. Methods like Replace() create new strings. But we can also create new ones with a constructor.
+String Constructor
+
+Literals. 
+These specify string data. We use quotes around literal data (characters). Literals are embedded in the program executable.
+Literal
+
+Comparisons. 
+Are two strings equal? In a Dictionary, we can use a StringComparer to change how keys are compared. We can ignore case.
+StringComparerStringComparison
+
+Parse, TryParse. 
+These transform strings into other types. Many parsing routines are built-in. Usually it is a bad idea to create our own if one already exists.
+DateTime.ParseEnum.Parseint.ParseHex Format
+
+TextInfo. 
+This type provides some helpful methods. We can convert a string To Title Case with ToTitleCase. No custom methods are needed.
+TextInfoTextInfo: ToTitleCase
+
+Whitespace. 
+Strings often contain newline or whitespace. We often need to check for these values. We use methods like IsNullOrWhitespace.
+NewLineLine CountWhitespace
+
+Empty. 
+An empty string has zero characters. Meanwhile a null string is no string at all. It is a reference that points to no memory location.
+Empty StringsNull Strings
+
+Chars. 
+A string contains data made up of individual characters. We deal with these chars in looping constructs. Accessing chars is a fast way to test strings.
+CharString Chars
+
+Loops. 
+We can loop over a string with any style of loop. When no index is required, a foreach-loop will result in the clearest code.
+ForeachFor, string
+
+Performance. 
+In typical usage strings are fast. But they are sometimes used in an inefficient way. Often reducing string allocations is helpful.
+Memory UsageEquals PerformanceToString CacheToString FormatsIsUpper, IsLower
+
+Custom methods. 
+Many string algorithms are composed from the built-in methods. With Substring calls we can Truncate strings. With ToCharArray we can change characters.
+TruncateRightUppercase First LettersChange Characters
+
+Explanations. 
+I explain concepts of strings. How do we append strings when there is no append method? We also learn to increment strings.
+String AppendString IncrementString Property
+
+StringBuilder. 
+This is not a string,
+but it is used to build up
+or change strings. For appending strings in a loop, we likely want to use StringBuilder.
+StringBuilder
