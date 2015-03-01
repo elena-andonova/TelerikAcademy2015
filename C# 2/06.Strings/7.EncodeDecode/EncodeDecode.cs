@@ -15,6 +15,35 @@ namespace _7.EncodeDecode
     {
         static void Main(string[] args)
         {
+            string line = Console.ReadLine(); // "Test";
+            string cypher = Console.ReadLine(); //"ab";
+            string encodedLine = EncodingDecoding(line, cypher);
+            //encodedLine = GetUnicodeString(encodedLine);
+            Console.WriteLine(encodedLine);
+            string decodedLine = EncodingDecoding(encodedLine, cypher);
+            Console.WriteLine(decodedLine);
         }
+
+        static string EncodingDecoding(string line, string cypher)
+        {
+            StringBuilder encodedDecoded = new StringBuilder();
+            for (int i = 0; i < line.Length; i++)
+            {
+                encodedDecoded.Append((char)(line[i] ^ cypher[i % cypher.Length]));
+                //Console.WriteLine(i % cypher.Length);
+            }
+            return encodedDecoded.ToString();
+        }
+
+        //static string GetUnicodeString(string s)
+        //{
+        //    StringBuilder uni = new StringBuilder();
+        //    foreach (char c in s)
+        //    {
+        //        uni.Append("\\u");
+        //        uni.Append(String.Format("{0:x4}", (int)c));
+        //    }
+        //    return uni.ToString();
+        //}
     }
 }
