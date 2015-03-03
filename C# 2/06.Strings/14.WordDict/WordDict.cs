@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+
 /*Problem 14. Word dictionary
 
     A dictionary is stored as a sequence of text lines containing words and their explanations.
@@ -14,6 +16,40 @@ namespace _14.WordDict
     {
         static void Main()
         {
+            string myDictStr = ".NET: platform for applications from Microsoft\nCLR: managed execution environment for .NET\nnamespace: hierarchical organization of classes";
+            Console.WriteLine(myDictStr);
+            Console.WriteLine();
+            Dictionary<string, string> myDictDB = GetDictDB(myDictStr);
+            string myWord = ".NET";
+            Console.Write("{0} --> ", myWord);
+            PrintMeaning(myWord, myDictDB);
+            string myWord1 = ".asdasd";
+            Console.Write("{0} --> ", myWord1);
+            PrintMeaning(myWord1, myDictDB);
+        }
+
+        static Dictionary<string, string> GetDictDB(string myDictStr)
+        {
+            string divider = ": ";
+            string[] strArr = myDictStr.Split('\n');
+            Dictionary<string, string> myDictDB = new Dictionary<string, string>(strArr.Length);
+            for (int i = 0; i < strArr.Length; i++)
+            {
+                string[] wordMeaning = Regex.Split(strArr[i], divider);
+                myDictDB[wordMeaning[0]] = wordMeaning[1];
+            }
+            return myDictDB;
+        }
+        static void PrintMeaning(string word, Dictionary<string, string> myDictDB)
+        {
+            if (myDictDB.ContainsKey(word))
+            {
+                Console.WriteLine(myDictDB[word]);
+            }
+            else
+            {
+                Console.WriteLine("not FOUND");
+            }
         }
     }
 }

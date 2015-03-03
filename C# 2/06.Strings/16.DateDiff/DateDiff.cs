@@ -13,6 +13,15 @@ namespace _16.DateDiff
     {
         static void Main(string[] args)
         {
+            Console.Write("enter date one = ");
+            string date1 = Console.ReadLine();
+            Console.Write("enter date two = ");
+            string date2 = Console.ReadLine();
+            DateTime dt1 = DateTime.Parse(date1);
+            DateTime dt2 = DateTime.Parse(date2);
+            TimeSpan days = (dt1 - dt2);
+            double NrOfDays = Math.Abs(days.TotalDays);
+            Console.WriteLine(NrOfDays);
         }
     }
 }

@@ -13,6 +13,18 @@ namespace _23.SeriesOfletters
     {
         static void Main()
         {
+            string line = "aaaaabbbbbcdddeeeedssaa";
+            string output = line[0].ToString();
+
+            for (int i = 1; i < line.Length; i++)
+            {
+                if (line[i] != line[i - 1])
+                {
+                    output += line[i];
+                }
+            }
+            Console.WriteLine(line);
+            Console.WriteLine(output);
         }
     }
 }

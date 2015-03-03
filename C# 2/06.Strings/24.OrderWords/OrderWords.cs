@@ -13,6 +13,13 @@ namespace _24.OrderWords
     {
         static void Main()
         {
+            Console.Write("enter words separated by spaces: ");
+            string line = Console.ReadLine();
+            Console.WriteLine();
+            string[] words = line.Split(' ');
+            Array.Sort(words);
+            string sortedWords = string.Join(", ", words);
+            Console.WriteLine(sortedWords);
         }
     }
 }
