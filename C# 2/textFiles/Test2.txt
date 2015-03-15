@@ -1,6 +1,0 @@
-1 Write a program that reads a text file containing a square matrix of numbers.
-2 Find an area of size 2 x 2 in the matrix, with a maximal sum of its elements.
-3 Different line
-4 The first line in the input file contains the size of matrix N.
-5 Each of the next N lines contain N numbers separated by space.
-6 The output should be a single number in a separate text file.
