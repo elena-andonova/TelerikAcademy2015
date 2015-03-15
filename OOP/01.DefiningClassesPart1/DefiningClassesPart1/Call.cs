@@ -11,6 +11,7 @@ namespace DefiningClassesPart1
 
     public class Call
     {
+        private const uint maxDuration = 3600;
         private DateTime callDateTime;
         private uint dialedPhoneNumber;
         private uint duration;
@@ -37,7 +38,14 @@ namespace DefiningClassesPart1
         public uint Duration
         {
             get { return this.duration; }
-            set { this.duration = value; }
+            set 
+            {
+                if (value > maxDuration)
+                {
+                    throw new ArgumentOutOfRangeException("The call duration cannot be more than 60min(3600sec)!");
+                }
+                this.duration = value; 
+            }
         }
 
     }

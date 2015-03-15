@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DefiningClassesPart1
+namespace DefiningClassesPart2
 {
-    class Program
+     class Program
     {
         static void Main()
         {
-            GSMTest.DisplayInfo();
-            GSMCallHistoryTest.DisplayCalls();
+            Console.WriteLine(Point3D.O.ToString());
+
         }
     }
 }

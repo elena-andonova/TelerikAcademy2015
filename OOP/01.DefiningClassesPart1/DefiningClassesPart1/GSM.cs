@@ -36,7 +36,7 @@ namespace DefiningClassesPart1
     {
         public const double minPrice = 20;
         public const double maxPrice = 2000;
-        private const double pricePerSec = 0.37;
+        private const double callPricePerSec = 0.37;
 
         public const string defaultOwner = "N/A";
         public Battery defaultBattery = new Battery("Samsung", Battery.minHoursIdle, Battery.minHoursTalk, BatteryType.Default);
@@ -52,8 +52,7 @@ namespace DefiningClassesPart1
         private List<Call> callHistory;
 
         private static GSM iphone4S = new GSM("IPhone4S", "Apple");
-
-
+        
         public GSM(string model, string manufacturer)
         {
             this.Model = model;
@@ -131,12 +130,12 @@ namespace DefiningClassesPart1
         public override string ToString()
         {
             return string.Format(@"
-            Model: {0}
-            Manufacturer: {1}
-            Price: {2} lv
-            Owner: {3}
-            Battery: Model {4}, Hours idle {5}, Hours talk {6}
-            Display: Size {7} inches, Number of colors {8}",
+Model: {0}
+Manufacturer: {1}
+Price: {2} lv
+Owner: {3}
+Battery: Model {4}, Hours idle {5}, Hours talk {6}
+Display: Size {7} inches, Number of colors {8}",
             this.Model, this.Manufacturer, this.Price, this.Owner, 
             this.Battery.Model, this.Battery.HoursIdle, this.Battery.HoursTalk,
             this.Display.Size, this.Display.NumberOfColors);
@@ -146,7 +145,7 @@ namespace DefiningClassesPart1
         {
             this.CallHistory.Add(newCall);
         }
-        public void DelCall(Call oldCall)
+        public void DeleteCall(Call oldCall)
         {
             this.CallHistory.Remove(oldCall);
         }
@@ -154,15 +153,14 @@ namespace DefiningClassesPart1
         {
             this.CallHistory.Clear();
         }
-        public double CallPriceCalc()
+        public double CalculatePriceOfCalls()
         {
             double price = 0;
             foreach (var call in this.CallHistory)
             {
-                price += (call.Duration * pricePerSec);
+                price += ((call.Duration/60) * callPricePerSec);
             }
             return price;
         }
-
     }
 }

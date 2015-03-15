@@ -26,13 +26,15 @@ namespace DefiningClassesPart1
                 new GSM("HTC Desire", "HTC", 450, "GF", battery1, display1),
                 new GSM("Samsung Galaxy S4", "Samsung", 768, "FT", battery2, display2)
             };
-
+            Console.WriteLine(new string('-', 15));
+            Console.WriteLine("GSMs INFO");
+            Console.WriteLine(new string('-', 15));
             foreach (var GSMitem in GSMArray)
             {
                 Console.WriteLine(GSMitem.ToString());
             }
-
             Console.WriteLine(GSM.IPhone4S.ToString());
+            Console.WriteLine();
         }
 
     }
