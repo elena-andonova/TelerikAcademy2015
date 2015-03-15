@@ -48,7 +48,7 @@ namespace DefiningClassesPart1
         private string owner;
         private Battery battery;
         private Display display;
-        //private List<Call> callHistory;
+
         private List<Call> callHistory;
 
         private static GSM iphone4S = new GSM("IPhone4S", "Apple");
@@ -62,6 +62,7 @@ namespace DefiningClassesPart1
             this.Owner = defaultOwner;
             this.Battery = defaultBattery;
             this.Display = defaultDisplay;
+            this.callHistory = new List<Call> { };
         }
 
         public GSM(string model, string manufacturer, double price, string owner, Battery battery, Display display)
@@ -72,6 +73,7 @@ namespace DefiningClassesPart1
             this.Owner = owner;
             this.Battery = battery;
             this.Display = display;
+            this.callHistory = new List<Call> { };
         }
         public string Model
         {
@@ -115,11 +117,6 @@ namespace DefiningClassesPart1
             set { this.display = value; }
         }
 
-        //public List<Call> CallHistory
-        //{
-        //    get { return this.callHistory; }
-        //    set { this.callHistory = value; }
-        //}
         public List<Call> CallHistory
         {
             get { return this.callHistory; }
@@ -149,23 +146,23 @@ namespace DefiningClassesPart1
         {
             this.CallHistory.Add(newCall);
         }
-        //public void DelCall(Call oldCall)
-        //{
-        //    this.CallHistory.Remove(oldCall);
-        //}
-        //public void ClearHistory()
-        //{
-        //    this.CallHistory.Clear();
-        //}
-        //public double CallPriceCalc()
-        //{
-        //    double price = 0;
-        //    foreach (var call in this.CallHistory)
-        //    {
-        //        price += (call.Duration * pricePerSec);
-        //    }
-        //    return price;
-        //}
+        public void DelCall(Call oldCall)
+        {
+            this.CallHistory.Remove(oldCall);
+        }
+        public void ClearHistory()
+        {
+            this.CallHistory.Clear();
+        }
+        public double CallPriceCalc()
+        {
+            double price = 0;
+            foreach (var call in this.CallHistory)
+            {
+                price += (call.Duration * pricePerSec);
+            }
+            return price;
+        }
 
     }
 }
