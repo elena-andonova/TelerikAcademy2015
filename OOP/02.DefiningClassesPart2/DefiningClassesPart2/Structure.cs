@@ -22,11 +22,11 @@ Problem 3. Static class
     struct Point3D
     {
         private static readonly Point3D o = new Point3D(0, 0, 0);
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int Z { get; set; }
+        public double X { get; set; }
+        public double Y { get; set; }
+        public double Z { get; set; }
 
-        public Point3D(int x, int y, int z)
+        public Point3D(double x, double y, double z)
             : this()
         {
             this.X = x;
