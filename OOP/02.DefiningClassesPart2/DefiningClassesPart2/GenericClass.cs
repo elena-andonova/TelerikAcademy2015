@@ -63,7 +63,22 @@ namespace DefiningClassesPart2
         //inserting element at given position
         public void InsertAtPosition(T item, int position)
         {
-            this.items[position] = item;
+            if (position < 0 || position > this.Count)
+            {
+                throw new IndexOutOfRangeException("Index is not in range!");
+            }
+                
+            this.Count++;
+            if (this.Count == this.Capacity)
+            {
+                var oldItems = this.items;
+                this.Capacity *= 2;
+                this.items = new T[this.Capacity];
+                //Array.Copy(oldItems, this.items, this.Count);
+            }
+
+            Array.Copy(this.items, position, this.items, position + 1, this.Count - position - 1);
+            this.items[position] = item;            
         }
 
         //accessing element by index
@@ -75,7 +90,15 @@ namespace DefiningClassesPart2
         //removing element by index
         public void RemoveAtPosition(int position)
         {
-            this.items[position] = default(T);
+            if (position < 0 || position > this.Count)
+            {
+                throw new IndexOutOfRangeException("Index is not in range!");
+            }
+
+            this.Count--;            
+            Array.Copy(this.items, position + 1, this.items, position, this.Count - position);
+
+            this.items[this.Count] = default(T);            
         }
 
         //clearing the list
@@ -104,10 +127,25 @@ namespace DefiningClassesPart2
             return position;
         }
         
-        //ToString()??
+        //ToString()
         public override string ToString()
         {
-            return string.Format("{0}", this.items);
+            if (this.Count == 0)
+            {
+                return "Empty list!";
+            }
+                
+            StringBuilder result = new StringBuilder();
+            
+            for (int i = 0; i < this.Count; i++)
+            {
+                result.AppendFormat("{0}", this.items[i].ToString());
+                if (i + 1 < this.Count)
+                {
+                    result.Append(", ");
+                }                    
+            }
+            return result.ToString();
         }
 
         public IEnumerator<T> GetEnumerator()
@@ -123,5 +161,24 @@ namespace DefiningClassesPart2
         {
             return this.GetEnumerator();
         }
+
+        //public T MIN<A>()
+        //        where A : IComparable<A>
+        //{
+        //    T minValue = this.items[0];
+        //    for (int i = 0; i < this.items.Count(); i++)
+        //    {
+        //        if (this.items[i].CompareTo(minValue) > 0)
+        //        {
+        //            minValue = this.items[i];
+        //        }
+        //    }
+        //    return minValue;
+        //}
+        //public T MAX()
+        //        //where A : IComparable<A>
+        //{
+        //    return this.items.Max();
+        //}
     }
 }

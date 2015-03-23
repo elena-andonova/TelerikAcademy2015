@@ -10,13 +10,19 @@ namespace DefiningClassesPart2
     {
         static void Main()
         {
-            //Console.WriteLine(Point3D.O.ToString());
+            Console.WriteLine(Point3D.O.ToString());
 
-            //Point3D point1 = new Point3D(1, 2, 3);
-            //Point3D point2 = new Point3D(3, 4, 6);
-            
-            //Console.WriteLine(StaticClass.CalculateDistance(point1, point2));
+            Point3D point1 = new Point3D(1, 2, 3);
+            Point3D point2 = new Point3D(3, 4, 6);
+
+            Console.WriteLine(StaticClass.CalculateDistance(point1, point2));
             GenericList<int> list = new GenericList<int> {1,2,3, 7, 3};
+
+            list.InsertAtPosition(10, 2);
+            Console.WriteLine(list.ToString());
+            list.RemoveAtPosition(2);
+            Console.WriteLine(list.ToString());
+
             Console.WriteLine(list.FindElementByValue(3));
             SampleClass.Sample();
         }

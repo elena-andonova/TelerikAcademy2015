@@ -13,6 +13,19 @@ namespace DefiningClassesPart2
 
     class Path
     {
-
+        private List<Point3D> pathList;
+        public Path()
+        {
+            this.PathList = new List<Point3D> { }; ;
+        }
+        public List<Point3D> PathList
+        {
+            get { return this.pathList; }
+            set { this.pathList = value; }
+        }
+        public void AddPoint(Point3D point)
+        {
+            this.PathList.Add(point);
+        }
     }
 }

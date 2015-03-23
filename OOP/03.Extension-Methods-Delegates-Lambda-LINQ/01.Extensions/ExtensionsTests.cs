@@ -17,7 +17,6 @@ namespace _01.Extensions
             Console.WriteLine("Substring: " + testSubstring);       //work
             Console.WriteLine();
             
-
             Console.WriteLine("IEnumerable Extension Methods Test");
             Console.WriteLine(new string('-', 35));
             List<int> coll = new List<int> { 1, 2, 3, 5, 7, 7, 876, 34, 34 };

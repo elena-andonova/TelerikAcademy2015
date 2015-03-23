@@ -12,18 +12,23 @@ namespace _03_05.Students
     //Create a List<Student> with sample students. Select only the students that are from group number 2.
     //Use LINQ query. Order the students by FirstName.
 
+    public enum Marks
+    {
+        Poor = 2, Average = 3, Good = 4, VeryGood = 5, Excellent = 6
+    }
+
     public class Student
     {
         private string firstName = "N/A";
         private string lastName = "N/A";
         private int age;
-        private int facultyNumber = 0;
+        private string facultyNumber = "N/A";
         private string tel = "N/A";
         private string email = "none@na.na";
         private List<int> marks = new List<int> { };
         private int groupNumber = 0;
 
-        public Student(string firstName, string lastName, int age, int facultyNumber, string tel, string email, int groupNumber)
+        public Student(string firstName, string lastName, int age, string facultyNumber, string email, string tel, int groupNumber)
         {
             this.FirstName = firstName;
             this.LastName = lastName;
@@ -53,7 +58,7 @@ namespace _03_05.Students
             set { this.age = value; }
         }
 
-        public int FacultyNumber
+        public string FacultyNumber
         {
             get { return this.facultyNumber; }
             set { this.facultyNumber = value; }

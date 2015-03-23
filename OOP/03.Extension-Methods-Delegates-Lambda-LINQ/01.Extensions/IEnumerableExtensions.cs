@@ -13,7 +13,7 @@ namespace _01.Extensions
     {
         public static dynamic Sum<T>(this IEnumerable<T> collection)
         {
-            dynamic sum = default(T);
+            dynamic sum = default(T);            
             foreach (T element in collection)
             {
                 sum += element;
