@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace _02.BankAccounts
 {
-    class Program
+    public class Company : Customer
     {
-        static void Main(string[] args)
+        public Company(string name)
+            :base(name)
         {
+
         }
     }
 }

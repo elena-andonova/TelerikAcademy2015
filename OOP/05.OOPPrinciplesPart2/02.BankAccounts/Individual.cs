@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01.Shapes
+namespace _02.BankAccounts
 {
-    class Program
+    public class Individual : Customer
     {
-        static void Main(string[] args)
+        public Individual(string name)
+            :base(name)
         {
+
         }
     }
 }
