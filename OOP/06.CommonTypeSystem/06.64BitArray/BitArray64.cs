@@ -96,7 +96,7 @@ namespace _06._64BitArray
         public override string ToString()
         {
             StringBuilder temp = new StringBuilder();
-            for (int i = 0; i < 64; i++)
+            for (int i = 63; i >= 0; i--)
             {
                 temp.Append((this.value64 >> i) & 1);
             }
