@@ -1,0 +1,39 @@
+﻿body 
+{
+    background-color:#404040;
+    font-family: Cambria;
+    font-size: 20px;
+}
+thead 
+{
+    font-size: 28px;
+    color: darkgrey;
+}
+.rightcol
+{
+    color:lightyellow;
+}
+.leftcol
+{
+    font-style: italic;
+    color: white;
+    text-align:left;
+    vertical-align:top;
+}
+.status
+{
+    color: darkgrey;
+}
+a
+{
+    text-decoration:none;
+    color:lightyellow;
+}
+#NAS
+{
+    color:red;
+}
+#NA
+{
+    color:orange;   
+}

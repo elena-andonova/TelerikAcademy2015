@@ -1,0 +1,53 @@
+﻿body 
+{
+    background-color:grey
+}
+h1
+{
+    color:lightyellow;
+}
+header
+{
+    text-align:center;
+}
+article header
+{
+    text-align:left;
+}
+ul
+{
+    list-style-type:none; 
+    font-size: 20px;     
+}
+ul a
+{    
+    color:whitesmoke;    
+}
+a
+{
+    text-decoration:none;
+}
+ul li:last-child
+{
+    text-decoration:underline;
+    color:whitesmoke;
+}
+ul li:nth-child(2) a
+{
+    background-color:lightgrey;
+}
+article footer a
+{
+    color: black;
+}
+footer
+{
+    text-align:center;
+}
+article footer
+{
+    font-size: 12px;
+    text-align:left;
+}
+
+

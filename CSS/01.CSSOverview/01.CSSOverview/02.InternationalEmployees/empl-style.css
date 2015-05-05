@@ -1,0 +1,40 @@
+﻿body 
+{
+    font-family: Calibri;
+    font-size: 20px;
+}
+td
+{
+    padding: 4px 4px 4px 4px;
+}
+thead td
+{
+    background-color:forestgreen;
+    color:white; 
+    border-bottom:1px solid #404040; 
+    border-right:1px solid #404040;      
+}
+thead td:last-child
+{
+    border-right:none;
+}
+tr:nth-child(even) 
+{
+    background:lightyellow
+}
+tr:nth-child(odd) 
+{
+    background:white
+}
+tbody td
+{
+    border-right:1px solid #404040; 
+}
+tbody td:last-child
+{
+    border-right:none;
+}
+tbody tr:last-child
+{
+    border-bottom:1px solid #404040;
+}
