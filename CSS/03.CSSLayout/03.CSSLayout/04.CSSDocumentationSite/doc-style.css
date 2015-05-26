@@ -1,0 +1,157 @@
+﻿body {
+    background-color: #f1f1f1;
+    font-family: Verdana;
+}
+
+nav, ul, li, div, section, aside, a, h1, h2, h3
+{
+    padding:0;
+    margin:0;
+}
+
+body li{
+    list-style-type:none;
+}
+
+.container{
+    overflow:hidden;
+    width:855px;
+    margin: 10px auto;
+    border:1px solid black;
+}
+
+body nav
+{
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    font: 13px/1.2 Verdana, sans-serif;
+}
+
+body nav ul li{
+    margin-top:20px;
+}
+
+body nav ul li ul li{
+    margin-top:0px;
+}
+
+body nav a{
+    text-decoration:none;
+    color:black;
+}
+
+.red{    
+    font-weight:bold;
+    color:#691616;
+} 
+
+
+.central{
+    float: left;
+    width: 500px;
+    margin: 5px 0 20px 25px;
+    padding: 10px 5px 40px 5px;
+    top: -10px;
+    border: 1px solid #a7a7a7;
+    background-color: #FFFFFF;
+}
+
+.central h1{
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:10px
+}
+
+.central h2{
+    background:gray;
+    color:white;
+    font-size:14px;
+    padding-left:5px;
+}
+
+
+body section article {
+    margin: 10px 0 15px 0;
+    font-size:13px;
+}
+
+.first-article{
+    margin-bottom:30px;
+}
+body .article-content.first-article p {
+    font-weight: bold;
+    padding-left:15px;
+}
+
+body .article-content.first-article a {
+    padding-left:115px;
+    padding-top:0;
+}
+
+body .article-content img {
+    float: left;
+    padding-right: 15px;
+    padding-top:15px;
+}
+
+body .article-content a {
+    margin-top: 10px;
+    color:#691616;
+}
+
+
+button{
+    width:100px;
+    font-size:13px;
+    padding:2px;
+    color:black;
+    background-color:white;
+    border:1px solid black;
+}
+
+aside{
+    margin: 3px 0 20px 5px;
+    float: left;
+    width: 170px;
+    font-size:13px;
+}
+
+aside section{
+    border:1px solid gray;
+    margin:2px 5px;
+    text-align:center;
+    vertical-align:central;
+    background-color:white;
+}
+
+aside section h3{
+    background:grey;
+    color:white;
+    font-size:13px;
+    padding:1px;
+}
+
+aside section ul{
+    margin-top:2px;
+    margin-bottom:5px;
+    padding:1px;
+}
+
+aside section a{
+    color:#691616;
+}
+
+aside section form{
+    margin-top:5px;
+    display:inline-block;
+}
+aside section form input{
+    width:25px;
+}
+aside section form input#box{
+    width:100px;
+}
+aside section img{
+    margin-top:5px;
+}

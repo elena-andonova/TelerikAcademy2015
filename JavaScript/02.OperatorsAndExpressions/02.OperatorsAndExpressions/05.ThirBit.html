@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Operators and expressions</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        var num = prompt('Tell me your number', 0) | 0;
+        var binNum = num.toString(2);
+        jsConsole.writeLine('The number ' + num + ' in binary is ' + binNum);
+        var pos = 3;
+        var mask = 1 << pos;
+        var numAndMask = num & mask;
+        var bit = numAndMask >> pos;
+        jsConsole.writeLine('Bit #3 is ' + bit);
+    </script>
+</body>
+</html>
