@@ -63,6 +63,9 @@
     <Content Include="04.ThirdDigit.html" />
     <Content Include="05.ThirBit.html" />
     <Content Include="06.PointInCircle.html" />
+    <Content Include="07.IsPrime.html" />
+    <Content Include="08.TrapezoidArea.html" />
+    <Content Include="09.PointInCircleAndOutsideRectangle.html" />
     <Content Include="js-console.css" />
     <Content Include="js-console.js" />
     <Content Include="Web.config" />

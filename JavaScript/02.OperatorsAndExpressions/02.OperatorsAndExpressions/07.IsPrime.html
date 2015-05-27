@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Operators and expressions</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        var number = 37;
+        var divider = 2;
+        var maxDivider = Math.sqrt(number);
+        var prime = true;
+        if (number > 1)
+        {
+            while (prime && (divider <= maxDivider))
+            {
+                if (number % divider == 0)
+                {
+                    prime = false;
+                }
+                divider++;
+            }
+            jsConsole.writeLine("The number " + number + " is Prime? :  " + prime);
+        }
+        else
+        {
+            prime = false;
+            jsConsole.writeLine("The number " + number + " is Prime? :  " + prime);
+        }
+    </script>
+</body>
+</html>
