@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        jsConsole.write("Please enter a number in the range[0;999]: ");
+        var number = prompt('Tell me your number:', 0);
+        jsConsole.writeLine(number);
+        var firstPos = number / 100 | 0;
+        var secPos = (number / 10) % 10 | 0;
+        var thirdPos = number % 10 | 0;
+        var positions = number.length;
+        var hundred = "hundred";
+
+        if (number < 0 || number > 1000)
+        {
+            Console.WriteLine("Not a valid number!");
+        }
+
+        var digitsBig = [ "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" ];
+        var digitsSmall = [ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" ];
+        var tensBig = [ "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" ];
+        var tensSmall = [ "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" ];
+        var decimalsBig = [ "Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" ];
+        var decimalsSmall = [ "twenty", "thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety" ];
+
+        switch (positions)
+        {
+            case 1:
+                {
+                    //the number is a digit.                        
+                    jsConsole.writeLine(digitsBig[thirdPos]);
+                }
+                break;
+            case 2:
+                {
+                    //the number is tens or decimals.
+                    if (secPos == 1)
+                    {
+                        jsConsole.writeLine(tensBig[thirdPos]);
+                    }
+                    else if (secPos >= 2 && thirdPos == 0)
+                    {
+                        jsConsole.writeLine(decimalsBig[secPos - 2]);
+                    }
+                    else
+                    {
+                        jsConsole.writeLine(decimalsBig[secPos - 2] + " " + digitsSmall[thirdPos]);
+                    }
+                }
+                break;
+            case 3:
+                {
+                    //the number is hundreds.
+                    if (secPos == 0 && thirdPos == 0)
+                    {
+                        jsConsole.writeLine(digitsBig[firstPos] + " " + hundred);
+                    }
+                    else if (secPos == 0 && thirdPos != 0)
+                    {
+                        jsConsole.writeLine(digitsBig[firstPos] + " " + hundred + " and " + digitsSmall[thirdPos]);
+                    }
+                    else if (secPos == 1)
+                    {
+                        jsConsole.writeLine(digitsBig[firstPos] + " " + hundred + " and " + tensSmall[thirdPos]);
+                    }
+                    else if (secPos >= 2 && thirdPos == 0)
+                    {
+                        jsConsole.writeLine(digitsBig[firstPos] + " " + hundred + " and " + tensSmall[secPos - 2]);
+                    }
+                    else
+                    {
+                        jsConsole.writeLine(digitsBig[firstPos] + " " + hundred + " and " + decimalsSmall[secPos - 2] + " " + digitsSmall[thirdPos]);
+                    }
+                }
+                break;
+            default:
+                jsConsole.writeLine("Not a valid number!");
+                break;
+        }
+    </script>
+</body>
+</html>

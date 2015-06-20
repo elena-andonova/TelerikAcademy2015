@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        jsConsole.writeLine("Please enter two numbers.");
+        var a = parseFloat(prompt('a:', 0));
+        var b = parseFloat(prompt('b:', 0));
+        var temp;
+        if (b < a)
+        {
+            temp = a;
+            a = b;
+            b = temp;
+        }
+        jsConsole.writeLine(a + " " + b);
+    </script>
+</body>
+</html>

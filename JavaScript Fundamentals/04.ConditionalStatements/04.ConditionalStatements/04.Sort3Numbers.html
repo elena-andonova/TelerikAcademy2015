@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        jsConsole.writeLine("Please enter three numbers.");
+        var a = parseFloat(prompt('a:', 0));
+        var b = parseFloat(prompt('b:', 0));
+        var c = parseFloat(prompt('c:', 0));
+        var biggest;
+        var medium;
+        var smallest;
+
+        if (a > b)
+        {
+            if (a > c)
+            {
+                biggest = a;
+                if (b > c)
+                {
+                    medium = b;
+                    smallest = c;
+                }
+                else
+                {
+                    medium = c;
+                    smallest = b;
+                }
+            }
+            else
+            {
+                biggest = c;
+                medium = a;
+                smallest = b;
+            }
+        }
+        else
+        {
+            if (b > c)
+            {
+                biggest = b;
+                if (a > c)
+                {
+                    medium = a;
+                    smallest = c;
+                }
+                else
+                {
+                    medium = c;
+                    smallest = a;
+                }
+            }
+            else
+            {
+                biggest = c;
+                medium = b;
+                smallest = a;
+            }
+        }
+        jsConsole.writeLine("The numbers in descending order: "+ biggest + ", " + medium + ", " + smallest);
+    </script>
+</body>
+</html>

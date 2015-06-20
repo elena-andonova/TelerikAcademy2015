@@ -4,3 +4,9 @@ C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\16.DecimaToHexadecim
 C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\16.DecimaToHexadecimalNumber\obj\Debug\16.DecimaToHexadecimalNumber.csprojResolveAssemblyReference.cache
 C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\16.DecimaToHexadecimalNumber\obj\Debug\16.DecimaToHexadecimalNumber.exe
 C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\16.DecimaToHexadecimalNumber\obj\Debug\16.DecimaToHexadecimalNumber.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\16.DecimaToHexadecimalNumber\bin\Debug\16.DecimaToHexadecimalNumber.exe.config
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\16.DecimaToHexadecimalNumber\bin\Debug\16.DecimaToHexadecimalNumber.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\16.DecimaToHexadecimalNumber\bin\Debug\16.DecimaToHexadecimalNumber.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\16.DecimaToHexadecimalNumber\obj\Debug\16.DecimaToHexadecimalNumber.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\16.DecimaToHexadecimalNumber\obj\Debug\16.DecimaToHexadecimalNumber.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\16.DecimaToHexadecimalNumber\obj\Debug\16.DecimaToHexadecimalNumber.pdb

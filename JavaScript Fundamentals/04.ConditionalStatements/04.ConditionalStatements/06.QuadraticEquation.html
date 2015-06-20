@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <label>input p:</label>
+        <input type="text" id="Kp" /><br />
+        <label>input q:</label>
+        <input type="text" id="Kq" /><br />
+        <label>input r:</label>
+        <input type="text" id="Kr" /><br />
+        <label>input d:</label>
+        <input type="text" id="Kd" /><br />
+        <label>input e:</label>
+        <input type="text" id="Ke" /><br />
+    </form>
+    <a href="#" onclick="solution()">FIND A SOLUTION</a>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        jsConsole.writeLine('px^2+qx+r=0');
+        function solution() {
+            var p = jsConsole.readInteger('#Kp');
+            var q = jsConsole.readInteger('#Kq');
+            var r = jsConsole.readInteger('#Kr');
+            var d = jsConsole.readInteger('#Kd');
+            var e = jsConsole.readInteger('#Ke');
+
+            if (p == 0) {
+                if (q == 0) { jsConsole.writeLine('no solution') }
+                else { jsConsole.writeLine('x=' + (-r / q)) };
+            }
+
+            else {
+                var D = (q * q - 4 * p * r); jsConsole.writeLine('D=' + D)
+                if (D < 0) { jsConsole.writeLine('no real solutions') }
+                else if (D == 0) { jsConsole.writeLine('x=' + (-q / (2 * p))) }
+                else
+                {
+                    jsConsole.writeLine('x1=' + ((-q - Math.sqrt(D)) / (2 * p)))
+                    jsConsole.writeLine('x2=' + ((-q + Math.sqrt(D)) / (2 * p)))
+                }
+            }
+        }
+    </script>
+</body>
+</html>

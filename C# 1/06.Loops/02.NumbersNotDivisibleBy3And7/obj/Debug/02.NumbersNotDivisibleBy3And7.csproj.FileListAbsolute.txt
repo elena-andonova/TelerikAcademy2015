@@ -3,3 +3,6 @@ c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisib
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\bin\Debug\02.NumbersNotDivisibleBy3And7.pdb
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\obj\Debug\02.NumbersNotDivisibleBy3And7.exe
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\02.NumbersNotDivisibleBy3And7\obj\Debug\02.NumbersNotDivisibleBy3And7.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\02.NumbersNotDivisibleBy3And7\bin\Debug\02.NumbersNotDivisibleBy3And7.exe.config
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\02.NumbersNotDivisibleBy3And7\obj\Debug\02.NumbersNotDivisibleBy3And7.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\02.NumbersNotDivisibleBy3And7\obj\Debug\02.NumbersNotDivisibleBy3And7.pdb

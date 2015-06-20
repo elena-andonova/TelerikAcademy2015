@@ -4,3 +4,9 @@ C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\19.SpiralMatrix\bin\
 C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.exe
 C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.pdb
 C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\19.SpiralMatrix\bin\Debug\19.SpiralMatrix.exe.config
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\19.SpiralMatrix\bin\Debug\19.SpiralMatrix.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\19.SpiralMatrix\bin\Debug\19.SpiralMatrix.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\19.SpiralMatrix\obj\Debug\19.SpiralMatrix.pdb

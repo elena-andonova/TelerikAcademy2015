@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        var numsPrompt = prompt('Array: ', 0);
+        jsConsole.writeLine("Array: " + numsPrompt);
+        var nums = numsPrompt.split(', ').map(Number).filter(Boolean); 
+
+        var counter = 1;
+        var max = 0;
+        var num = nums[0];
+
+        for (var i = 0; i < nums.length - 1; i++)
+        {
+            if (nums[i] == nums[i+1])
+        {
+                counter++;
+        }
+        else
+        {
+                counter = 1;
+        }
+            if (counter > max)
+        {
+                max = counter;
+                num = nums[i];
+        }
+        }
+
+        for (var i = 0; i < max; i++)
+        {
+            jsConsole.write(num + ' ');
+        }
+
+    </script>
+</body>
+</html>

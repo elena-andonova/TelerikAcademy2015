@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        function comparer(n1, n2) {
+            var sign = "";
+            if (n1 > n2) {
+                sign = ">";
+            }
+            else if (n1 < n2) {
+                sign = "<";
+            }
+            else {
+                sign = "=";
+            }
+            return sign;
+        }
+
+        var arr1 = "apples";
+        var arr2 = "bananas";
+        var minLen = Math.min(arr1.length, arr2.length);
+        for (var i = 0; i < minLen; i++) {
+            var sign = comparer(arr1[i].charCodeAt(), arr2[i].charCodeAt());
+            jsConsole.writeLine(arr1[i] + " " + sign + " " + arr2[i]);
+        }
+    </script>
+</body>
+</html>

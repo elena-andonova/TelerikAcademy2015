@@ -3,3 +3,9 @@ c:\users\ela\documents\visual studio 2013\Projects\06.Loops\05.CalculateN-XN\bin
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\05.CalculateN-XN\bin\Debug\05.CalculateN-XN.pdb
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\05.CalculateN-XN\obj\Debug\05.CalculateN-XN.exe
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\05.CalculateN-XN\obj\Debug\05.CalculateN-XN.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\05.CalculateN-XN\bin\Debug\05.CalculateN-XN.exe.config
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\05.CalculateN-XN\bin\Debug\05.CalculateN-XN.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\05.CalculateN-XN\bin\Debug\05.CalculateN-XN.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\05.CalculateN-XN\obj\Debug\05.CalculateN-XN.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\05.CalculateN-XN\obj\Debug\05.CalculateN-XN.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\05.CalculateN-XN\obj\Debug\05.CalculateN-XN.pdb

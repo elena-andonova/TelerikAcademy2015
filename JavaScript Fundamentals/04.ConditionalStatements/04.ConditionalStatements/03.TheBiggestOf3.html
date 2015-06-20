@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        var a = parseFloat(prompt('a:', 0));
+        var b = parseFloat(prompt('b:', 0));
+        var c = parseFloat(prompt('c:', 0));
+        var tmp = a;
+        if (tmp < b) {
+            tmp = b;
+        }
+        if (tmp < c) {
+            tmp = c;
+        }
+        jsConsole.writeLine("The biggest is: " + tmp);
+    </script>
+</body>
+</html>

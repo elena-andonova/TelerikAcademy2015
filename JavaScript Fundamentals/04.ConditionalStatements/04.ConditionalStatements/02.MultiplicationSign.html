@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        jsConsole.writeLine("Please enter three numbers.");
+        var a = parseFloat(prompt('a:', 0));
+        var b = parseFloat(prompt('b:', 0));
+        var c = parseFloat(prompt('c:', 0));
+        var numArr = [ a, b, c ];
+        var result = '';
+
+        if (a == 0 || b == 0 || c == 0)
+        {
+            result = '0';
+            jsConsole.writeLine(result);
+        }
+        else
+        {
+            var counter = 0;
+            for (var i = 0; i < numArr.length; i++)
+            {
+                if (numArr[i] < 0)
+            {
+                    counter++;
+            }
+        }
+        // Console.WriteLine(counter);
+        switch (counter)
+        {
+            case 1:
+            case 3:
+                result = '-';
+                jsConsole.writeLine(result);
+                break;
+            case 2:
+                result = '+';
+                jsConsole.writeLine(result);
+                break;
+            default:
+                result = '+';
+                jsConsole.writeLine(result);
+                break;
+        }
+        }     
+    </script>
+</body>
+</html>

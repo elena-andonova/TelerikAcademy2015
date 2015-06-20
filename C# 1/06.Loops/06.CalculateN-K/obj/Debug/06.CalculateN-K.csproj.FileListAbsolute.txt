@@ -3,3 +3,9 @@ c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\bin\
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\bin\Debug\06.CalculateN-K.pdb
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\obj\Debug\06.CalculateN-K.exe
 c:\users\ela\documents\visual studio 2013\Projects\06.Loops\06.CalculateN-K\obj\Debug\06.CalculateN-K.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\06.CalculateN-K\bin\Debug\06.CalculateN-K.exe.config
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\06.CalculateN-K\bin\Debug\06.CalculateN-K.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\06.CalculateN-K\bin\Debug\06.CalculateN-K.pdb
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\06.CalculateN-K\obj\Debug\06.CalculateN-K.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\06.CalculateN-K\obj\Debug\06.CalculateN-K.exe
+D:\Telerik Academy\Homeworks\C# 1\06.Loops\06.CalculateN-K\obj\Debug\06.CalculateN-K.pdb

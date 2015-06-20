@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        var numsPrompt = prompt('Array: ', 0);
+        jsConsole.writeLine("Array: " + numsPrompt);
+        var nums = numsPrompt.split(', ').map(Number).filter(Boolean); //{ 64, 25, 12, 22, 11 };
+        var minIndex = 0;
+        var temp = 0;
+
+        for (var i = 0; i < nums.length - 1; i++) {
+            minIndex = i;
+            for (var j = i + 1; j < nums.length; j++) {
+                if (nums[j] < nums[minIndex]) {
+                    minIndex = j;
+                }
+            }
+
+            if (minIndex != i) {
+                temp = nums[i];
+                nums[i] = nums[minIndex];
+                nums[minIndex] = temp;
+            }
+        }
+
+        jsConsole.writeLine(nums);
+    </script>
+</body>
+</html>

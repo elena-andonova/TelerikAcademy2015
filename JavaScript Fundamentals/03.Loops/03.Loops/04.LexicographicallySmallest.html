@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Loops</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+
+        var prop;
+        var arr = [];
+
+        for (obj in document) {
+
+            for (var prop in document[obj]) {
+                arr.push(prop);
+            }            
+        }
+        arr.sort();
+        jsConsole.writeLine(arr.shift());
+        jsConsole.writeLine(arr.pop());
+
+        for (obj in window) {
+
+            for (var prop in window[obj]) {
+                arr.push(prop);
+            }
+        }
+        arr.sort();
+        jsConsole.writeLine(arr.shift());
+        jsConsole.writeLine(arr.pop());
+
+        for (obj in navigator) {
+
+            for (var prop in navigator[obj]) {
+                arr.push(prop);
+            }
+        }
+        arr.sort();
+        jsConsole.writeLine(arr.shift());
+        jsConsole.writeLine(arr.pop());
+    </script>
+</body>
+</html>

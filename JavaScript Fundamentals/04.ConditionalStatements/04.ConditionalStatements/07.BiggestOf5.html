@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <label>input p:</label>
+        <input type="text" id="Kp" /><br />
+        <label>input q:</label>
+        <input type="text" id="Kq" /><br />
+        <label>input r:</label>
+        <input type="text" id="Kr" /><br />
+        <label>input d:</label>
+        <input type="text" id="Kd" /><br />
+        <label>input e:</label>
+        <input type="text" id="Ke" /><br />
+        <input type="button" onclick="biggest()" value="FIND THE BIGGEST" />
+        <input type="reset" value="Clear" />
+    </form>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        function biggest() {
+            var p = jsConsole.readInteger('#Kp');
+            var q = jsConsole.readInteger('#Kq');
+            var r = jsConsole.readInteger('#Kr');
+            var d = jsConsole.readInteger('#Kd');
+            var e = jsConsole.readInteger('#Ke');
+            var Bst;
+            if (p > q && p > r && p > d && p > e) { Bst = p }
+            else if (q > p && q > r && q > d && q > e) { Bst = q }
+            else if (r > p && r > q && r > d && r > e) { Bst = r }
+            else if (d > p && d > r && d > q && d > e) { Bst = d }
+            else { Bst = e }
+            jsConsole.writeLine('The biggest number is: ' + Bst)
+        }
+    </script>
+</body>
+</html>
