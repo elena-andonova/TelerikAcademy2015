@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="46d14ea5-d48f-4c97-8e3a-13fcb04021ab" Title="_02.BankAccounts" Url="html/696d0137-9d1b-b7b5-85be-08c883492797.htm">
+    <HelpTOCNode Id="2b0843d5-4ab5-43b0-8321-c082270cb2de" Title="Account Class" Url="html/63dcd0dd-2b51-fff4-75b4-bd122a45ad69.htm">
+      <HelpTOCNode Title="Account Constructor " Url="html/97376fb4-e665-0129-2d22-15901b7ccf97.htm" />
+      <HelpTOCNode Id="33e55471-c41a-46c1-9a0c-6ef870e3bfa4" Title="Account Properties" Url="html/730bb2ec-d2f5-fd6a-8cda-46c4061d935e.htm">
+        <HelpTOCNode Title="Balance Property " Url="html/55ddeea5-9fb5-74a9-0656-7478c55d1f8f.htm" />
+        <HelpTOCNode Title="CustomerName Property " Url="html/c72d4e64-46fa-403b-319b-63fc650234da.htm" />
+        <HelpTOCNode Title="InterestRate Property " Url="html/d7ee6327-f36f-075f-cbd2-f864476f5775.htm" />
+        <HelpTOCNode Title="Months Property " Url="html/5522568f-5f24-6cd4-3457-ffaed64be774.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cd414fbd-ac13-42e5-82c4-2ea24b89d011" Title="Account Methods" Url="html/81975a57-8cd4-f930-fb92-cbb1cc0664da.htm">
+        <HelpTOCNode Title="CalculateInterestAmount Method " Url="html/22cea929-6494-bdae-fda9-7be4f37f3974.htm" />
+        <HelpTOCNode Title="Deposit Method " Url="html/db4ae637-bc21-ae5a-979e-3c84bd3e49c2.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/8c2fc712-83c7-b867-8ce5-672e4d9a2a31.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="76bdf9fc-d1e0-461b-bb5f-606c9d57b248" Title="Bank Class" Url="html/4d802e46-69a4-bcd8-5371-3d54e76f9c6e.htm">
+      <HelpTOCNode Title="Bank Constructor " Url="html/0e4e053e-1fd7-9275-0029-a6af4a0d6182.htm" />
+      <HelpTOCNode Id="81de63ba-8d66-4d11-a377-8a0c717f8f8f" Title="Bank Properties" Url="html/be05ecf6-55a0-db67-dc98-d3cf271cc5c8.htm">
+        <HelpTOCNode Title="DepositAccounts Property " Url="html/2774e174-1595-c4bc-faa9-64671a301599.htm" />
+        <HelpTOCNode Title="LoanAccounts Property " Url="html/d0bf89cb-04df-e255-a95b-04e717001b10.htm" />
+        <HelpTOCNode Title="MortgageAccounts Property " Url="html/c691825c-8833-cafe-6349-44cbbc2bd447.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/3bc3ba42-5d36-68e6-3b42-ee7050d9d4a5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Bank Methods" Url="html/0fcfa886-776e-6b43-581f-cadb9b99c4b2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7db6eb2a-e584-4270-ba98-f7477f630ec3" Title="Company Class" Url="html/9a9d3016-0688-a6e0-5179-d380b75e5084.htm">
+      <HelpTOCNode Title="Company Constructor " Url="html/faf7bd4a-849c-61e0-03d4-73b81fcf32a7.htm" />
+      <HelpTOCNode Title="Company Properties" Url="html/54b968eb-93db-70aa-8b40-34400e0bee03.htm" />
+      <HelpTOCNode Title="Company Methods" Url="html/3efb7e55-2baf-2aca-bcb6-dd4400fd70f6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="43d30628-e40c-4aa5-8241-66a2b436d2ea" Title="Customer Class" Url="html/b6fdac25-093a-6b9f-4dae-24b55913b84e.htm">
+      <HelpTOCNode Title="Customer Constructor " Url="html/7c186f6b-87ab-05a2-7eaa-294ba55e5852.htm" />
+      <HelpTOCNode Id="b1a40b36-e7d7-4a0a-a309-a3e602b0ce9d" Title="Customer Properties" Url="html/fa17c803-38bb-053e-6891-a0f96c843db6.htm">
+        <HelpTOCNode Title="Name Property " Url="html/fe695747-1d57-584a-dbe5-a07d07d72a31.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Customer Methods" Url="html/67ea1770-976a-91e1-7803-38f6cb87b8ab.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6f2d8454-a83f-477c-903a-ecdd4d7ce9e6" Title="DepositAccount Class" Url="html/77df88f1-92de-d9b7-06e6-2d647f574ba9.htm">
+      <HelpTOCNode Title="DepositAccount Constructor " Url="html/fa1ba7ea-c5a8-8764-c43e-fec51970fe60.htm" />
+      <HelpTOCNode Title="DepositAccount Properties" Url="html/02002760-7ee8-c643-780b-e834ce66ab8b.htm" />
+      <HelpTOCNode Id="b31b0704-c2b8-4b50-b8a1-647aa6ddc70f" Title="DepositAccount Methods" Url="html/a4bd3970-5112-12af-7d36-950e13800f7b.htm">
+        <HelpTOCNode Title="CalculateInterestAmount Method " Url="html/662448fe-ea43-2c9d-26bc-35b0eff445a6.htm" />
+        <HelpTOCNode Title="WithDraw Method " Url="html/910c9ed9-565e-6b8e-d77f-3e6299ff619c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e72bc115-b061-4203-bcdd-c135e463f17c" Title="Individual Class" Url="html/1f1ae83b-0675-24b4-b365-aead2b3f1ab2.htm">
+      <HelpTOCNode Title="Individual Constructor " Url="html/7bb46ed3-ef5e-7272-ae8c-d76a6df44fd3.htm" />
+      <HelpTOCNode Title="Individual Properties" Url="html/812fd2ec-8d06-6f5f-fe55-c40985b5d72a.htm" />
+      <HelpTOCNode Title="Individual Methods" Url="html/ee498507-596f-de69-6d9b-8cb88bf0b46d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="087e9aa0-2a5a-40bf-a5a8-4ee66bab4536" Title="LoanAccount Class" Url="html/ac0c8cdf-feb3-0cc0-33c5-434d38e51c27.htm">
+      <HelpTOCNode Title="LoanAccount Constructor " Url="html/8af43cd9-ceb4-7a99-d5a0-4d8ea5b35d28.htm" />
+      <HelpTOCNode Title="LoanAccount Properties" Url="html/090f0195-9189-43b4-af3f-3d1317318a80.htm" />
+      <HelpTOCNode Id="4a862c9f-8e16-4d96-85d1-3d696c0e16e9" Title="LoanAccount Methods" Url="html/6d75b1ac-1780-5b9f-8e19-ad12b703f1a5.htm">
+        <HelpTOCNode Title="CalculateInterestAmount Method " Url="html/bb3f9619-5b7b-d07f-79db-98522b649f44.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5b3676d5-883a-4bc3-b603-4e1f2e5a1496" Title="MortgageAccount Class" Url="html/000f0ec6-6f94-f2a4-6d93-3ec34f119eac.htm">
+      <HelpTOCNode Title="MortgageAccount Constructor " Url="html/7de322dc-e8f5-1198-8e86-b30bc7e2344b.htm" />
+      <HelpTOCNode Title="MortgageAccount Properties" Url="html/b159afb4-762a-908e-4202-7430184bae2f.htm" />
+      <HelpTOCNode Id="d8bddb9c-bccc-42c5-8e63-f9cea9520412" Title="MortgageAccount Methods" Url="html/b22e6d1e-2bc3-de25-39e8-2425d84b8f68.htm">
+        <HelpTOCNode Title="CalculateInterestAmount Method " Url="html/93d9c50a-451c-d4ee-b8e0-2c226b6d0244.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
