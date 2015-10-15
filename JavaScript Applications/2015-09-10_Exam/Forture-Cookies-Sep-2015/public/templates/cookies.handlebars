@@ -1,0 +1,33 @@
+<div class="row">
+<h1 class="page-header col-md-4">ALL COOKIES</h1>
+
+</div>
+<div class="row">
+  <a href="#/home/add" class="btn btn-primary col-md-8">Share a new cookie</a>
+  <a href="#/home/sorted-by-likes" class="btn btn-warning col-md-2">Sort by Likes</a>
+  <a href="#/home/sorted-by-dates" class="btn btn-warning col-md-2">Sort by Dates</a>
+</div>
+
+{{#each this}}
+  <div class="cookie-box" data-id="{{id}}">
+    <h2><a class="category" href="#/home?category={{category}}">{{category}}</a></h2>
+    {{users.userId}}
+    <h3 class="text">{{this.text}}</h3>
+    <img class="img" src="{{img}}" width="200" />
+    <br/>
+    <button id="share" class="share btn btn-default btn-sm">
+      Share
+    </button>
+    <button id="like" class="btn btn-default btn-sm">
+      Like
+      <span>({{likes}})</span>
+    </button>
+    <button id="dislike" class="btn btn-default btn-sm">
+      DISLike
+      <span>({{dislikes}})</span>
+    </button>
+  </div>
+  <strong>shared on
+    <span>{{shareDate}}</span>
+  </strong>
+{{/each}}

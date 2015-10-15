@@ -1,0 +1,24 @@
+<h1>This is your cookie:</h1>
+
+<h2><a href="#/home?category={{category}}">{{category}}</a></h2>
+{{users.userId}}
+<h3>{{this.text}}</h3>
+<img src="{{img}}" width="200" />
+<br/>
+<div class="cookie-box" data-id="{{id}}">
+  <button id="share" class="btn btn-default btn-sm">
+    Share
+  </button>
+  <button id="like" class="btn btn-default btn-sm">
+    Like
+    <span>({{likes}})</span>
+  </button>
+  <button id="dislike" class="btn btn-default btn-sm">
+    DISLike
+    <span>({{dislikes}})</span>
+  </button>
+</div>
+<strong>shared on
+  <span>{{shareDate}}</span>
+</strong>
+shared by <a href="#/">{{userId}}</a>
