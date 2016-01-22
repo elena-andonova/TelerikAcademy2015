@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1B4E993F-046D-43BB-AC5A-A75C6FD02C4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{85CDBF73-096A-4A88-839A-213A04D0A665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{044DE43A-612E-4DAC-94F2-D16C732D5AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleimot.Data", "Data\Teleimot.Data\Teleimot.Data.csproj", "{BF861C94-B725-45FD-93F7-885CC34D7323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleimot.Data.Models", "Data\Teleimot.Data.Models\Teleimot.Data.Models.csproj", "{00A72253-BAC5-448D-82D1-B5473CCCD79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleimot.Web.Api", "Web\Teleimot.Web.Api\Teleimot.Web.Api.csproj", "{960C5B10-025C-40CC-9449-3973FCB1305E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleimot.Common", "Teleimot.Common\Teleimot.Common.csproj", "{7918B76F-71F9-470D-B41F-39E5207683B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleimot.Services.Data", "Services\Teleimot.Services.Data\Teleimot.Services.Data.csproj", "{4CBC33D0-CF4D-4905-BC94-7BAB0C60BD07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF861C94-B725-45FD-93F7-885CC34D7323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF861C94-B725-45FD-93F7-885CC34D7323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF861C94-B725-45FD-93F7-885CC34D7323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF861C94-B725-45FD-93F7-885CC34D7323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A72253-BAC5-448D-82D1-B5473CCCD79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A72253-BAC5-448D-82D1-B5473CCCD79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A72253-BAC5-448D-82D1-B5473CCCD79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A72253-BAC5-448D-82D1-B5473CCCD79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960C5B10-025C-40CC-9449-3973FCB1305E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960C5B10-025C-40CC-9449-3973FCB1305E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960C5B10-025C-40CC-9449-3973FCB1305E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960C5B10-025C-40CC-9449-3973FCB1305E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7918B76F-71F9-470D-B41F-39E5207683B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7918B76F-71F9-470D-B41F-39E5207683B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7918B76F-71F9-470D-B41F-39E5207683B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7918B76F-71F9-470D-B41F-39E5207683B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBC33D0-CF4D-4905-BC94-7BAB0C60BD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBC33D0-CF4D-4905-BC94-7BAB0C60BD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBC33D0-CF4D-4905-BC94-7BAB0C60BD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBC33D0-CF4D-4905-BC94-7BAB0C60BD07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF861C94-B725-45FD-93F7-885CC34D7323} = {1B4E993F-046D-43BB-AC5A-A75C6FD02C4F}
+		{00A72253-BAC5-448D-82D1-B5473CCCD79E} = {1B4E993F-046D-43BB-AC5A-A75C6FD02C4F}
+		{960C5B10-025C-40CC-9449-3973FCB1305E} = {044DE43A-612E-4DAC-94F2-D16C732D5AA3}
+		{4CBC33D0-CF4D-4905-BC94-7BAB0C60BD07} = {85CDBF73-096A-4A88-839A-213A04D0A665}
+	EndGlobalSection
+EndGlobal
