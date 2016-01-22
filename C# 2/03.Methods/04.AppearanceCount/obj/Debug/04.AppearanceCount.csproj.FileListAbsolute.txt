@@ -1,6 +1,0 @@
-D:\Telerik Academy\C# 2\HW\03.Methods\04.AppearanceCount\bin\Debug\04.AppearanceCount.exe.config
-D:\Telerik Academy\C# 2\HW\03.Methods\04.AppearanceCount\bin\Debug\04.AppearanceCount.exe
-D:\Telerik Academy\C# 2\HW\03.Methods\04.AppearanceCount\bin\Debug\04.AppearanceCount.pdb
-D:\Telerik Academy\C# 2\HW\03.Methods\04.AppearanceCount\obj\Debug\04.AppearanceCount.csprojResolveAssemblyReference.cache
-D:\Telerik Academy\C# 2\HW\03.Methods\04.AppearanceCount\obj\Debug\04.AppearanceCount.exe
-D:\Telerik Academy\C# 2\HW\03.Methods\04.AppearanceCount\obj\Debug\04.AppearanceCount.pdb

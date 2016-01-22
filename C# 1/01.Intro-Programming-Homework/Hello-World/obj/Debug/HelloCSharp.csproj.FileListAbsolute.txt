@@ -1,2 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\Hello-World\obj\Debug\HelloCSharp.csprojResolveAssemblyReference.cache
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\Hello-World\bin\Debug\Hello-World.exe.config

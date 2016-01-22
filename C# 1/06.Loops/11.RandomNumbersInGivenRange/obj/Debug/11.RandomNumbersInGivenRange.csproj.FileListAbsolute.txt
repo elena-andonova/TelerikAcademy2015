@@ -1,6 +1,0 @@
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\06.Loops\11.RandomNumbersInGivenRange\bin\Debug\11.RandomNumbersInGivenRange.exe.config
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\06.Loops\11.RandomNumbersInGivenRange\bin\Debug\11.RandomNumbersInGivenRange.exe
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\06.Loops\11.RandomNumbersInGivenRange\bin\Debug\11.RandomNumbersInGivenRange.pdb
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\06.Loops\11.RandomNumbersInGivenRange\obj\Debug\11.RandomNumbersInGivenRange.csprojResolveAssemblyReference.cache
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\06.Loops\11.RandomNumbersInGivenRange\obj\Debug\11.RandomNumbersInGivenRange.exe
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\06.Loops\11.RandomNumbersInGivenRange\obj\Debug\11.RandomNumbersInGivenRange.pdb

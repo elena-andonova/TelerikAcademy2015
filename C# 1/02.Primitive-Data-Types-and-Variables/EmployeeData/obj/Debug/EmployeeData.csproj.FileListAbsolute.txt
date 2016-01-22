@@ -1,5 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\EmployeeData\bin\Debug\EmployeeData.exe.config
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\EmployeeData\bin\Debug\EmployeeData.exe
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\EmployeeData\bin\Debug\EmployeeData.pdb
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\EmployeeData\obj\Debug\EmployeeData.exe
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\EmployeeData\obj\Debug\EmployeeData.pdb

@@ -1,6 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\06.Loops\07.CalculateN-(K(N-K))\bin\Debug\07.CalculateN-(K(N-K)).exe.config
-c:\users\ela\documents\visual studio 2013\Projects\06.Loops\07.CalculateN-(K(N-K))\bin\Debug\07.CalculateN-(K(N-K)).exe
-c:\users\ela\documents\visual studio 2013\Projects\06.Loops\07.CalculateN-(K(N-K))\bin\Debug\07.CalculateN-(K(N-K)).pdb
-c:\users\ela\documents\visual studio 2013\Projects\06.Loops\07.CalculateN-(K(N-K))\obj\Debug\07.CalculateN-(K(N-K)).exe
-c:\users\ela\documents\visual studio 2013\Projects\06.Loops\07.CalculateN-(K(N-K))\obj\Debug\07.CalculateN-(K(N-K)).pdb
-c:\users\ela\documents\visual studio 2013\Projects\06.Loops\07.CalculateN-(K(N-K))\obj\Debug\07.CalculateN-(K(N-K)).csprojResolveAssemblyReference.cache

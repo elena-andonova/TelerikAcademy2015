@@ -1,6 +1,0 @@
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\14.DecimaToBinaryNumber\bin\Debug\14.DecimaToBinaryNumber.exe.config
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\14.DecimaToBinaryNumber\bin\Debug\14.DecimaToBinaryNumber.exe
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\14.DecimaToBinaryNumber\bin\Debug\14.DecimaToBinaryNumber.pdb
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\14.DecimaToBinaryNumber\obj\Debug\14.DecimaToBinaryNumber.csprojResolveAssemblyReference.cache
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\14.DecimaToBinaryNumber\obj\Debug\14.DecimaToBinaryNumber.exe
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\14.DecimaToBinaryNumber\obj\Debug\14.DecimaToBinaryNumber.pdb

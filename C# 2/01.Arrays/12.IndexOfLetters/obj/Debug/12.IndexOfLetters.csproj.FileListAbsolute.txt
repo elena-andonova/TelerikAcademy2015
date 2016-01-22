@@ -1,6 +1,0 @@
-D:\Telerik Academy\C# 2\HW\01.Arrays\12.IndexOfLetters\bin\Debug\12.IndexOfLetters.exe.config
-D:\Telerik Academy\C# 2\HW\01.Arrays\12.IndexOfLetters\bin\Debug\12.IndexOfLetters.exe
-D:\Telerik Academy\C# 2\HW\01.Arrays\12.IndexOfLetters\bin\Debug\12.IndexOfLetters.pdb
-D:\Telerik Academy\C# 2\HW\01.Arrays\12.IndexOfLetters\obj\Debug\12.IndexOfLetters.csprojResolveAssemblyReference.cache
-D:\Telerik Academy\C# 2\HW\01.Arrays\12.IndexOfLetters\obj\Debug\12.IndexOfLetters.exe
-D:\Telerik Academy\C# 2\HW\01.Arrays\12.IndexOfLetters\obj\Debug\12.IndexOfLetters.pdb

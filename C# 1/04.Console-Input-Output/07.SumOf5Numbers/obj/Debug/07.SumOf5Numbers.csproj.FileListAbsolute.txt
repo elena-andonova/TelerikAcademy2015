@@ -1,6 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\07.SumOf5Numbers\bin\Debug\07.SumOf5Numbers.exe.config
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\07.SumOf5Numbers\obj\Debug\07.SumOf5Numbers.csprojResolveAssemblyReference.cache
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\07.SumOf5Numbers\bin\Debug\07.SumOf5Numbers.exe
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\07.SumOf5Numbers\bin\Debug\07.SumOf5Numbers.pdb
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\07.SumOf5Numbers\obj\Debug\07.SumOf5Numbers.exe
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\07.SumOf5Numbers\obj\Debug\07.SumOf5Numbers.pdb

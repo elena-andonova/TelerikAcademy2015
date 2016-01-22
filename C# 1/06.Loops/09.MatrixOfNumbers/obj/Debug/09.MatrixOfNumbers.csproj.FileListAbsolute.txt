@@ -1,9 +1,0 @@
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\09.MatrixOfNumbers\bin\Debug\09.MatrixOfNumbers.exe.config
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\09.MatrixOfNumbers\bin\Debug\09.MatrixOfNumbers.exe
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\09.MatrixOfNumbers\bin\Debug\09.MatrixOfNumbers.pdb
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\09.MatrixOfNumbers\obj\Debug\09.MatrixOfNumbers.csprojResolveAssemblyReference.cache
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\09.MatrixOfNumbers\obj\Debug\09.MatrixOfNumbers.exe
-C:\Users\eLa\documents\visual studio 2013\Projects\06.Loops\09.MatrixOfNumbers\obj\Debug\09.MatrixOfNumbers.pdb
-D:\Telerik Academy\Homeworks\C# 1\06.Loops\09.MatrixOfNumbers\bin\Debug\09.MatrixOfNumbers.exe.config
-D:\Telerik Academy\Homeworks\C# 1\06.Loops\09.MatrixOfNumbers\obj\Debug\09.MatrixOfNumbers.exe
-D:\Telerik Academy\Homeworks\C# 1\06.Loops\09.MatrixOfNumbers\obj\Debug\09.MatrixOfNumbers.pdb

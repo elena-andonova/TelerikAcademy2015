@@ -1,5 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.exe.config
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.exe
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.pdb
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HorribleCode\obj\Debug\HorribleCode.exe
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HorribleCode\obj\Debug\HorribleCode.pdb

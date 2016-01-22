@@ -1,5 +1,0 @@
-c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\ThirdDigit7\bin\Debug\ThirdDigit7.exe.config
-c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\ThirdDigit7\bin\Debug\ThirdDigit7.exe
-c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\ThirdDigit7\bin\Debug\ThirdDigit7.pdb
-c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\ThirdDigit7\obj\Debug\ThirdDigit7.exe
-c:\users\eandonova\documents\visual studio 2013\Projects\Operators-and-Expressions\ThirdDigit7\obj\Debug\ThirdDigit7.pdb

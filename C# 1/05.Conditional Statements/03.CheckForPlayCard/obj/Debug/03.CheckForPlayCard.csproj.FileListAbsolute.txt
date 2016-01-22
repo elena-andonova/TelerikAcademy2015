@@ -1,5 +1,0 @@
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\05.Conditional Statements\03.CheckForPlayCard\bin\Debug\03.CheckForPlayCard.exe.config
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\05.Conditional Statements\03.CheckForPlayCard\bin\Debug\03.CheckForPlayCard.exe
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\05.Conditional Statements\03.CheckForPlayCard\bin\Debug\03.CheckForPlayCard.pdb
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\05.Conditional Statements\03.CheckForPlayCard\obj\Debug\03.CheckForPlayCard.exe
-C:\Users\eLa\Documents\Visual Studio 2013\Projects\05.Conditional Statements\03.CheckForPlayCard\obj\Debug\03.CheckForPlayCard.pdb

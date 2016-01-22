@@ -1,5 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BooleanVariable\bin\Debug\BooleanVariable.exe.config
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BooleanVariable\bin\Debug\BooleanVariable.exe
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BooleanVariable\bin\Debug\BooleanVariable.pdb
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BooleanVariable\obj\Debug\BooleanVariable.exe
-c:\users\ela\documents\visual studio 2013\Projects\Primitive-Data-Types-and-Variables\BooleanVariable\obj\Debug\BooleanVariable.pdb

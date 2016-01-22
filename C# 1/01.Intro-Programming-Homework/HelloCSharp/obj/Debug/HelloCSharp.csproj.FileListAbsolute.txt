@@ -1,5 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloCSharp\bin\Debug\HelloCSharp.exe.config
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloCSharp\bin\Debug\HelloCSharp.exe
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloCSharp\bin\Debug\HelloCSharp.pdb
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloCSharp\obj\Debug\HelloCSharp.exe
-c:\users\ela\documents\visual studio 2013\Projects\Intro-Programming-Homework\HelloCSharp\obj\Debug\HelloCSharp.pdb

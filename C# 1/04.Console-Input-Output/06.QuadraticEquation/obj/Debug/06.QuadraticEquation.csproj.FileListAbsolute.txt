@@ -1,5 +1,0 @@
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.exe.config
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.exe
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\06.QuadraticEquation\bin\Debug\06.QuadraticEquation.pdb
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\06.QuadraticEquation\obj\Debug\06.QuadraticEquation.exe
-c:\users\ela\documents\visual studio 2013\Projects\04.Console-Input-Output\06.QuadraticEquation\obj\Debug\06.QuadraticEquation.pdb
