@@ -9,7 +9,7 @@
 4. [Console Input/Output](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/04.Console-Input-Output "Console Input/Output")
 5. [Conditional Statements](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/05.Conditional%20Statements "Conditional Statements")
 6. [Loops](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/06.Loops "Loops")
-7. [Exam](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/Exam "Exam ")
+7. [Exam *(02/03/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/Exam "Exam ")
 
 
 ### C# Part 2 ###
@@ -24,3 +24,15 @@
 7. [Exception Handling](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%202/07.ExceptionHandling "Exception Handling")
 8. [Text Files](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%202/08.TextFiles "Text Files")
 9. [Exam *(06/03/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%202/Exam06032015 "Exam (06/03/2015)")
+
+
+### C# OOP ###
+*Duration: 10/03/2015 - 05/04/2015*
+
+1. [Defining Classes - Part 1](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/01.DefiningClassesPart1 "Defining Classes - Part 1")
+2. [Defining Classes - Part 2](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/02.DefiningClassesPart2 "Defining Classes - Part 2")
+3. [Extension Methods, Delegates, Lambda, LINQ](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/03.Extension-Methods-Delegates-Lambda-LINQ "Extension Methods, Delegates, Lambda, LINQ")
+4. [OOP Principles - Part 1](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/04.OOPPrinciplesPart%201 "OOP Principles - Part 1")
+5. [OOP Principles - Part 2](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/05.OOPPrinciplesPart2 "OOP Principles - Part 2")
+6. [Common Type System](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/06.CommonTypeSystem "Common Type System")
+7. Exam *(06/04/2015)*
