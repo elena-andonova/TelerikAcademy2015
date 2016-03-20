@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="js-console.css" rel="stylesheet" />
+    <title>CHECK</title>
+</head>
+<body>
+  <form>
+      <input type="button" onclick="f1()" value="1.EngDigit" />
+      <input type="button" onclick="f2()" value="2.RemoveElem" />
+      <input type="button" onclick="f3()" value="3.deepCopy" />
+      <input type="button" onclick="f4()" value="4.hasProp" />
+	  <input type="button" onclick="f5()" value="5.findYongest" />
+	  <input type="button" onclick="f6()" value="6.Group" />
+
+  </form>
+    <div id="js-console">
+        <script src="js.js"></script>
+        <script>
+            
+			function f1(){
+				
+				function Point(x1, y1){
+					return{
+						x: x1,
+						y: y1,
+						toString: (function(){
+							return("x: " + x1 + "; y: " + y1)
+						})
+					}
+				}
+	
+	
+				function Line(point1, point2){
+					return{
+						p1: point1,
+						p2: point2,
+						toString: (function () {
+							return ("P1 (" + point1.x + "; " + point2.y + "), P2 (" + point2.x + '; ' + point2.y + ")")
+						}),
+						calcLen:(function(){
+							var result = (Math.sqrt(Math.pow((point1.x - point2.x), 2) + Math.pow((point1.y - point2.y), 2)))
+							return result;
+						})
+					}
+				}
+
+	
+				var A = Point(5, 6);
+				var B = Point(8, 10);
+				var C = Point(4, 3);
+				var D = Point(18, 3);
+				jsConsole.writeLine(A.toString());
+				jsConsole.writeLine(B.toString());
+				
+				var AB = Line(A, B);
+				var BC = Line(B, C);
+				var AC = Line(A, C);
+				var CD = Line(C, D);
+				
+				jsConsole.writeLine("AB: " + AB.toString());
+				jsConsole.writeLine("BC: " + BC.toString());
+				jsConsole.writeLine("AC: " + AC.toString());
+				
+				jsConsole.writeLine("AB len: " + AB.calcLen());
+				jsConsole.writeLine("BC len: " + BC.calcLen());
+				jsConsole.writeLine("AC len: " + AC.calcLen());
+	 
+
+				function isTriangle(line1, line2, line3) {
+					//Triangle Inequality Theorem
+					
+					var a = line1.calcLen();
+					var b = line2.calcLen();
+					var c = line3.calcLen();
+					
+					if( a + b > c && a + c > b && b + c > a){
+						return true;
+					}
+					return false;
+				}
+				
+				var answer1 = isTriangle(AB, BC, AC);;
+				jsConsole.writeLine(" AB BC AC - is a triangle: " + answer1);
+				
+				var answer2 = isTriangle(CD, BC, AC);;
+				jsConsole.writeLine(" CD BC AC - is a triangle: " + answer2);
+			
+			}
+
+            function f2(){
+			
+                Array.prototype.remove = function(element) {
+					return this.filter(function(current) {
+						return current !== element
+					})
+				}
+                var arr = [1, 2, 1, 4, 1,  3, 4, 1, 111, 3, 2, 1];
+				var numToRemove = parseInt(prompt('enter a number:',0));
+                jsConsole.writeLine('arr='+arr.remove(numToRemove));
+            }
+			
+			function f3(){
+				
+				
+				function deepCopy(oldObj) {
+				var newObj = oldObj;
+				if (oldObj && typeof oldObj === 'object') {
+					newObj = Object.prototype.toString.call(oldObj) === "[object Array]" ? [] : {};
+					for (var i in oldObj) {
+						newObj[i] = deepCopy(oldObj[i]);
+					}
+				}
+				return newObj;
+				}
+
+				var person = {
+					fname: 'John',
+					lname: 'Dow',
+					toString: function () { return this.fname + ' ' + this.lname; }
+				};
+		
+				var newPerson = deepCopy(person);
+		
+				jsConsole.writeLine('Old object: ' + person.toString());
+				jsConsole.writeLine('New object: '+ newPerson.toString());
+		
+				person.fname = 'Jane';
+				jsConsole.writeLine('Old object: ' + person.toString());
+				jsConsole.writeLine('New object: ' + newPerson.toString());
+			
+			}
+			
+			function f4(){
+				
+				var person = {
+					fname: 'John',
+					lname: 'Dow',
+					toString: function () { return this.fname + ' ' + this.lname; }
+				};
+		
+				var arr = [5, 6];
+		
+				var test = hasProperty(person, 'fname');
+				jsConsole.writeLine(test);
+		
+				function hasProperty(obj, prop) {
+					return Object.prototype.hasOwnProperty.call(obj, prop);
+				};
+			}
+
+            function f5(){
+                var persons = [
+                     { firstName: 'Mihaela', lastname: 'Andonova', age: 24 },
+                     { firstName: 'Georgi', lastname: 'Nikolov', age: 23 },
+                     { firstName: 'Nikolay ', lastname: 'Georgiev', age: 18 },
+                     { firstName: 'Tinki', lastname: 'Uinki', age: 40 }
+                ]
+           
+                function findYongest(array) {
+                    var index = 0;
+                    var age = array[0].age;
+                    for (var i = 1; i < array.length; i++) {
+                        if (array[i].age<age) {
+                            age = array[i].age;
+                            index = i;   
+                        }
+                    }
+                    jsConsole.writeLine('The youngest person is '+array[index].firstName +' '+array[index].lastname + ' and he is ' +age +' years old.')
+                }
+                findYongest(persons);
+            }
+
+            function f6(){
+                var persons = [
+                     { firstName: 'Helena', lastname: 'Andonova', age: 24 },
+                     { firstName: 'Mihail', lastname: 'Nikolov', age: 23 },
+                     { firstName: 'Djingi ', lastname: 'Bingi', age: 18 },
+                     { firstName: 'Niki', lastname: 'Petrov', age: 43 },
+                     { firstName: 'Yodran', lastname: 'Goshev', age: 50 },
+                     { firstName: 'Denislav', lastname: 'Yordanov', age: 36 }
+                ]
+                function group(array, prop) {
+					if( !(prop  in array[0])){
+						alert( "no such a property");
+						return;
+					}
+					
+				//...........	
+					
+
+                }
+				var arr = group(persons, 'asd');
+				
+				
+            }
+            
+        </script>
+    </div>
+
+</body>
+</html>

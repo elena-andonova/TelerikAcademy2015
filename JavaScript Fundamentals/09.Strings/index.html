@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="js-console.css" rel="stylesheet" />
+    <title>CHECK</title>
+</head>
+<body>
+    <form>
+        <input type="button" onclick="f1()" value="1. Reverse string" />
+        <input type="button" onclick="f2()" value="2. Correct brackets" />
+        <input type="button" onclick="f3()" value="3. Sub-string in text" />
+        <input type="button" onclick="f4()" value="4. Parse tags" />
+        <input type="button" onclick="f5()" value="5. nbsp" />
+        <input type="button" onclick="f6()" value="6. Extract text from HTML" />
+        <input type="button" onclick="f7()" value="7. Parse URL" />
+        <input type="button" onclick="f8()" value="8. Replace tags" />
+        <input type="button" onclick="f9()" value="9. Extract e-mails" />
+        <input type="button" onclick="f10()" value="10. Find palindromes" />
+        <input type="button" onclick="f11()" value="11. String format" />
+        <input type="button" onclick="f12()" value="12. Generate list" />
+    </form>
+    <div id="js-console">
+        <script src="js.js"></script>
+        <script>
+            function f1() {
+                var str = 'sample'
+                jsConsole.writeLine(str)
+                function reverseStr(string) {
+                    var str1 = ''
+                    for (var i = string.length - 1; i >= 0; i--) {
+                        str1 += string[i]
+                    }
+                    jsConsole.writeLine('Reversed: ' + str1)
+                }
+                reverseStr(str);
+            }
+
+            function f2() {
+                var line = ")(a+b))";
+
+                function checkBrackets() {
+                    var opening = '(';
+                    var closing = ')';
+                    var counter = 0;
+
+                    for (var i = 0; i < line.length - 2; i++) {
+                        if (line[i] == opening) {
+                            counter++;
+                        }
+                    }
+
+                    for (var j = line.length - 1; j > 0; j--) {
+                        if (line[j] == closing) {
+                            counter--;
+                        }
+                    }
+
+                    if (counter == 0) {
+                        jsConsole.writeLine("Brackets are correct!");
+                    }
+                    else {
+                        jsConsole.writeLine("Brackets are NOT correct!");
+                    }
+                }
+                checkBrackets();
+            }
+
+
+            function f3() {
+                var string = "We are living in an yellow submarine. We don't have anything else. inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days."
+                var substring = 'in';
+                var number = string.toLowerCase().split(substring).length - 1;
+                jsConsole.writeLine('The substring \'' + substring + '\' is found ' + number + ' times.')
+            }
+
+            function f4() {
+                var str = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else."
+                jsConsole.writeLine(str)
+                function doUpcase(text) {
+                    var indexStart = text.indexOf("<upcase>");
+                    var insideText;
+                    var upperText;
+                    while (indexStart > -1) {
+                        insideText = text.substring(indexStart + 8, text.indexOf("</upcase>", indexStart))
+                        upperText = insideText.toUpperCase();
+                        text = text.replace(insideText, upperText);
+                        indexStart = text.indexOf("<upcase>", indexStart + 1);
+                    }
+                    return text
+                }
+                //jsConsole.writeLine(doUpcase(str))
+
+                function mixedCase(text) {
+                    var indexStart = text.indexOf('<mixcase>')
+                    var insideText = '';
+                    var mixedText = '';
+
+                    while (indexStart >= 0) {
+                        insideText = text.substring(indexStart + 9, text.indexOf('</mixcase>', indexStart));
+                        mixedText = insideText
+                        for (var i = 0; i < mixedText.length; i++) {
+                            if (i % 2 == 0) {
+                                mixedText = mixedText.replace(mixedText[i], mixedText[i].toUpperCase())
+                            }
+                            else { mixedText = mixedText.replace(mixedText[i], mixedText[i].toLowerCase()) }
+
+                        }
+                        text = text.replace(insideText, mixedText)
+                        indexStart = text.indexOf("<mixcase>", indexStart + 1)
+                    } return text;
+                }
+                str = doUpcase(str)
+                str = mixedCase(str)
+                jsConsole.writeLine(str)
+            }
+
+            function f5() {
+                var text = 'Nice blue sky and warm sun shining'
+                jsConsole.writeLine(text);
+                var textToReplace = "&amp;nbsp;";
+                function replaceText(text, textToReplace) {
+                    var splittedText = text.split(' ');
+                    var result = splittedText.join(textToReplace);
+                    return result;
+                }
+                jsConsole.writeLine(replaceText(text, textToReplace))
+            }
+
+            function f6() {
+
+            }
+
+            function f7() {
+                function parseURL() {
+                    var url = prompt('input the url', 0)
+                    jsConsole.writeLine(url);
+                    var protokol = url.substring(0, url.indexOf(":"));
+
+                    var protocolServerDivider = "//";
+                    var indexServerStart = url.indexOf(protocolServerDivider);
+                    var serverResourceDivider = "/";
+                    var indexServerEnd = url.indexOf(serverResourceDivider, indexServerStart + (protocolServerDivider.length));
+                    var serverLength = (indexServerEnd - (indexServerStart + protocolServerDivider.length));
+                    var server = url.substr(indexServerStart + (protocolServerDivider.length), serverLength);
+                    var resourceLength = url.length - indexServerEnd;
+                    var resource = url.substr(indexServerEnd, resourceLength);
+                    var urlJSON = { "protkol": protokol, "server": server, "resource": resource }
+                    jsConsole.writeLine('protokol:' + urlJSON.protkol)
+                    jsConsole.writeLine('server:' + urlJSON.server)
+                    jsConsole.writeLine('resource:' + urlJSON.resource)
+                }
+                parseURL();
+            }
+
+            function f8() {
+                var text = '<p>Please visit <a href="http://academy.telerik. com">our site</a> to choose a training course. Also visit <a href="www.devbg.org">our forum</a> to discuss the courses.</p>'
+                jsConsole.writeLine(text)
+                function replaceA(string) {
+                    for (i = 0; i < string.length - 1; i++) {
+                        string = string.replace("<a href", "[URL");
+                        string = string.replace("</a>", "[/URL]");
+                    }
+                    jsConsole.writeLine(string);
+                }
+                replaceA(text);
+            }
+
+            function f9() {
+                var text = 'dvingiojasa tinki uinki mlq mqlq mihail.y.nikolov@abv.bg, fskmdaskldmsads mihailynikolov@gmail.bg kmasdklamda mangal_mangusta@abv.bg'
+                function getMails(string) {
+                    var words = text.split(' ');
+                    var emailSymbol = "@";
+                    var emailDomain = ".";
+                    var emails = [];
+                    for (var i = 0; i < words.length; i++) {
+                        if ((words[i].indexOf(emailSymbol) != -1) &&
+                            (words[i].indexOf(emailSymbol) >= 2) &&
+                            (words[i].indexOf(emailDomain) < words[i].length - 2)) {
+                            emails.push(words[i]);
+                        }
+                    }
+                    jsConsole.writeLine(emails.join(' '));
+                }
+                getMails();
+            }
+
+            function f9() {
+     
+            }
+        </script>
+    </div>
+
+</body>
+</html>

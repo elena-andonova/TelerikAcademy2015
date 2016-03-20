@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="js-console.css" rel="stylesheet" />
+    <title>Array Methods</title>
+</head>
+<body>
+    <form>
+        <input type="button" onclick="f1()" value="01.MakePerson" />
+        <input type="button" onclick="f2()" value="02.PeopleOfAge" />
+        <input type="button" onclick="f3()" value="03.UnderagePeople" />
+        <input type="button" onclick="f4()" value="04.AverageAgeOfFemales" />
+        <input type="button" onclick="f5()" value="05.YongestPerson" />
+        <input type="button" onclick="f6()" value="06.GroupPeople" />
+
+    </form>
+    <div id="js-console">
+        <script src="js.js"></script>
+        <script>
+                jsConsole.writeLine('Let\'s make some people here.. Introducing 10 persons in the place: ');
+                jsConsole.writeLine('');
+                var divider = '-'.repeat(45);
+                var people = [createPerson('Peter', 'Smith', 13, false),
+                              createPerson('John', 'Doe', 25, false),
+                              createPerson('Susan', 'Sutherland', 21, true),
+                              createPerson('Georgi', 'Nikolov', 23, false),
+                              createPerson('Nikolay', 'Georgiev', 18, false),
+                              createPerson('Raya', 'Hristova', 15, true),
+                              createPerson('Alexander', 'Kolev', 35, false),
+                              createPerson('Filip', 'Todorov', 10, false),
+                              createPerson('Asya', 'Rainova', 29, true),
+                              createPerson('Mihaela', 'Andonova', 24, true)];
+
+                people.forEach(function(person) {
+                    jsConsole.writeLine(person.introduce());
+                });
+                jsConsole.writeLine(divider);
+                function createPerson(fname, lname, age, gender) {
+                    return {
+                        fname: fname,
+                        lname: lname,
+                        age: age,
+                        gender: gender,
+                        // gender (true is female, false is male)
+                        toString: function getFullName() {
+                            return this.fname + " " + this.lname;
+                        },
+
+                        introduce: function printPersonInfo() {
+                            var gen;
+                            if (this.gender) {
+                                gen='female';
+                            }
+                            else {
+                                gen='male';
+                            }
+                            return this.fname + " " + this.lname + ', age: ' + this.age + ', gender: ' + gen;
+                        }                          
+                    }
+                }
+
+
+
+                    function f2() {
+                        jsConsole.writeLine('Are there any people of age here: ' + people.some(isOfAge));
+                        jsConsole.writeLine(divider);
+
+                        function isOfAge(person) {
+                            return person.age >= 18;
+                        }
+                    }
+
+                    function f3() {
+                        var underaged = people.filter(isUnderage);
+                        jsConsole.writeLine('Are there any underaged people here: ');
+                        underaged.forEach(function (person) {
+                            jsConsole.writeLine(person.introduce());
+                        });
+                        jsConsole.writeLine(divider);
+
+                        function isUnderage(person) {
+                            return person.age < 18;
+                        }
+                    }
+
+                    function f4() {
+                        var females = people.filter(isFemale);
+                        var av = females.reduce(function (sum, person) { return sum + person.age; }, 0) / females.length;
+
+                        jsConsole.writeLine('Average age of all females: ' + av);
+                        jsConsole.writeLine('');
+                        jsConsole.writeLine('Females: ');
+                        females.forEach(function (person) {
+                            jsConsole.writeLine(person.introduce());
+                        });                                         
+
+                        jsConsole.writeLine(divider);
+
+                        function isFemale(person) {
+                            return person.gender === true;
+                        }
+                    }
+
+                    function f5() {
+                        //I can't figure out how to do it with Array#find...
+                        people.sort(function (p1, p2) {
+                            return p1.age < p2.age;
+                        });
+
+                        jsConsole.writeLine('The youngest person is: ' + people.pop().introduce());
+                    }
+
+                    function f6() {
+                        function group(){
+
+                        }
+                    }
+
+        </script>
+    </div>
+
+</body>
+</html>

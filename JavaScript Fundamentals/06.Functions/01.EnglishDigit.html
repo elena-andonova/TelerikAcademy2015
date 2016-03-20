@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>       
+        function engNum(number) {
+            var digits = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+            var digitWord;
+            if (number.length > 1) {
+                digitWord = 'Not a digit!';
+            }
+            else
+            {
+                digit = number % 10;
+                var digitWord = digits[digit];
+            }
+            return digitWord;
+        }
+
+        var number = prompt('Tell me your number', 0);        
+        var word = engNum(number);
+        jsConsole.writeLine(word);
+    </script>
+</body>
+</html>

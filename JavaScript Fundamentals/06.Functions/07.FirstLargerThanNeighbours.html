@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+
+        function firstLargerThanNeighbours(arr) {
+            var index = 0;
+            for (var i = 0; i < arr.length; i++) {
+                if (largerThanNeighbours(i, arr) == true) {
+                    index = i;
+                    break;
+                }
+                else {
+                    index = -1;
+                }
+            }
+            return index;
+        }
+
+        function largerThanNeighbours(position, arr) {
+            if (position == 0 || position == (arr.length - 1)) {
+                return false;
+            }
+            else if (arr[position] > arr[position - 1] && arr[position] > arr[position + 1]) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        var arr = [ 1, 0, 3, 54, 56, 2, 1, 2, 4, 4, 3 ];
+        var index = firstLargerThanNeighbours(arr);
+        jsConsole.writeLine(arr);
+        jsConsole.writeLine('The index of the first number that is larger than its neighbours is: ' + index);
+    </script>
+</body>
+</html>

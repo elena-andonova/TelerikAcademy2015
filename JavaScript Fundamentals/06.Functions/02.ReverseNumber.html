@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        function reverseNum(number) {            
+            var numberArr = number.split('');
+            numberArr.reverse();
+            var numReverse = numberArr.join('');            
+            return numReverse;
+        }
+
+        var number = prompt('Tell me your number', 0);
+        var reverse = reverseNum(number);
+        jsConsole.writeLine(reverse);
+    </script>
+</body>
+</html>

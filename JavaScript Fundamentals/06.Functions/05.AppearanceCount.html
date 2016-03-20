@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        function AppearanceCountFunc(number, arr) {
+            var count = 0;
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == number) {
+                    count++;
+                }
+            }            
+            return count;
+        }
+
+        var number = 5;
+        var arr = [1, 2, 4, 5, 3, 5, 7, 6, 5, 3];
+        var counter = AppearanceCountFunc(number, arr);
+        jsConsole.writeLine(counter);
+        var arrList = [];
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i] == number) {
+                arrList.push(arr[i]);
+            }
+        }
+
+        if (counter == arrList.length) {
+            jsConsole.writeLine("The method works correctly!");
+        }
+        else {
+            jsConsole.writeLine("The method does NOT work correctly!");
+        }
+    </script>
+</body>
+</html>

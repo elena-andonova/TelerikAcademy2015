@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="js-console.css" rel="stylesheet" />
+    <title>CHECK</title>
+</head>
+<body>
+    <form>
+        <input type="button" onclick="f1()" value="1. Format with placeholders" />
+        <input type="button" onclick="f2()" value="2. HTML binding" />
+    </form>
+    <div id="js-console">
+        <script src="js.js"></script>
+        <script>
+            function f1() {
+                String.prototype.format = function (options) {
+                    return this.replace(/(?:#{(\w+)})/g, function ($0, $1) {
+                        return options[$1];
+                    });
+                };
+
+                var options = { name: 'John' };                          
+                var str = 'Hello, there! Are you #{name}?'.format(options);
+                jsConsole.writeLine(str);
+            }
+
+            function f2() {
+                String.prototype.insertAt = function (index, string) {
+                    return [this.slice(0, index), string, this.slice(index)].join('');
+                };
+
+                String.prototype.bind = function (attr) {
+                    var str = this,
+                        regex = /(?:data\-bind\-(\w+)="(\w+)")/g,
+                        match,
+                        matches = {};
+
+                    while (match = regex.exec(str)) {
+                        matches[match[1]] = match[2];
+                    }
+
+                    for (var key in matches) {
+                        if (matches.hasOwnProperty(key)) {
+                            if (key === 'content') {
+                                var angleBracketIndex = str.indexOf('>');
+                                str = str.insertAt(angleBracketIndex + 1, attr[matches[key]]);
+                            } else {
+                                var doubleQuotesIndex = str.lastIndexOf('\"');
+                                str = str.insertAt(doubleQuotesIndex + 1, ' ' + key + '\"=' + attr[matches[key]] + '\"');
+                            }
+                        }
+                    }
+
+                    return str;
+                };
+
+                var attributes = { name: 'Steven' };
+                jsConsole.writeLine('<div data-bind-content="name"></div>'.bind(attributes));
+            }
+
+        </script>
+    </div>
+
+</body>
+</html>

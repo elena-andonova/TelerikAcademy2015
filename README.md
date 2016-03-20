@@ -55,3 +55,19 @@
 4. [Exam *(13/05/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/CSS/Exam "Exam")
 
 
+### JavaScript Fundamentals ###
+*Duration: 18/05/2015 - 08/06/2015*
+
+1. Data Types and Variables
+2. Operators and Expressions
+3. Loops
+4. Conditional Statements
+5. Arrays
+6. Functions
+7. Using Objects
+8. Array Methods
+9. Strings
+10. Regular Expressions
+11. Exam *(11/06/2015)*
+
+

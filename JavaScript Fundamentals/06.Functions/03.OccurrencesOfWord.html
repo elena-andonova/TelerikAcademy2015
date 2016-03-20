@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions</title>
+    <link href="js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="js-console.js"></script>
+    <script>
+        var line = 'edno dve edno tri$@#% chetiri';
+        line = line.toLowerCase();
+        var cleanText = line.replace(/\W+/g, ' ');        
+        var words = cleanText.split(' ');
+        
+        var searchedWord = 'edno';
+
+        var result = wordCount(searchedWord, words);
+        jsConsole.writeLine(words);
+        jsConsole.writeLine('Searched word: ' + searchedWord);
+        jsConsole.writeLine('Occurences:' + result);
+
+        function wordCount(searchedWord, words) {
+            var count = 0;
+            for (var i = 0; i < words.length; i++) {
+                if (words[i] === searchedWord) {
+                    count++;
+                }
+            }
+            return count;            
+        }        
+    </script>
+</body>
+</html>
