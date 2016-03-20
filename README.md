@@ -121,24 +121,24 @@
 *Duration: 17/06/2015 - 08/10/2015*
 
 1. Code Formatting
-2. Naming Identifiers
-3. Code Documentation and Comments
-4. Variables, Data, Expressions and Constants
-5. Control Flow, Conditional Statements Loops
-6. High-quality Methods
-7. High-quality classes
-8. Defensive Programming and Exceptions
-9. Code Tuning and Optimization
-10. Unit Testing
-11. Test-Driven Development
-12. Refactoring
-13. Debugging
-14. Development Tools
-15. Creational Patterns
-16. Structural Patterns
-17. Behavioral Patterns
-18. Mocking and JustMock
-19. Exam *(15/10/2015)*
+2. [Naming Identifiers](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/02.NamingIdentifiers "Naming Identifiers")
+3. [Code Documentation and Comments](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/03.CodeDocumentationAndComments "Code Documentation and Comments")
+4. [Variables, Data Expressions and Constants](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/04.Variables%2C%20Data%2C%20Expressions%20and%20Constants "Variables, Data Expressions and Constants")
+5. [Control Flow, Conditional Statements and Loops](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/05.ControlFlowConditionalStatementsLoops "Control Flow, Conditional Statements and Loops")
+6. [High-Quality Methods](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/06.High-qualityMethods/Homework "High-Quality Methods")
+7. [High-quality classes](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/07.High-QualityClasses/Homework "High Quality Classes")
+8. [Defensive Programming and Exceptions](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/08.Defensive%20Programming%20and%20Exceptions/Homework "Defensive Programming and Exceptions")
+9.[ Code Tuning and Optimization](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/09.Code%20Tuning%20and%20Optimization/Homework "Code Tuning and Optimization")
+10. [Unit Testing](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/10.%20Unit%20Testing "Unit Testing")
+11. [Test-Driven Development](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/11.%20Test-Driven%20Development "Test-Driven Development")
+12. [Refactoring](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/13.%20Refactoring/Homework "Refactoring")
+13. [Debugging](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/14.%20Debugging "Debugging")
+14. [Development Tools](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/15.%20Development%20Tools/Homework "Development Tools")
+15. [Creational Patterns](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/16.%20Creational%20Patterns "Creational Patterns")
+16. [Structural Patterns](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/17.%20Structural%20Patterns "Structural Patterns")
+17. [Behavioral Patterns](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/18.%20Behavioral%20Patterns/BehavioralPatternsExample "Behavioral Patterns")
+18. [Mocking and JustMock](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/19.%20Mocking%20and%20JustMock "Mocking and JustMock")
+19. [Exam *(15/10/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/High%20Quality%20Code/2015-10-15_Exam "Exam (15/10/2015)")
 
 
 ### Databases ###
