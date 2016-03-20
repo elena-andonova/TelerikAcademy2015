@@ -58,16 +58,130 @@
 ### JavaScript Fundamentals ###
 *Duration: 18/05/2015 - 08/06/2015*
 
-1. Data Types and Variables
-2. Operators and Expressions
-3. Loops
-4. Conditional Statements
-5. Arrays
-6. Functions
-7. Using Objects
-8. Array Methods
-9. Strings
-10. Regular Expressions
+1. [Data Types and Variables](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/01.DataTypesAndVariables "Data Types and Variables")
+2. [Operators and Expressions](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/02.OperatorsAndExpressions "Operators and Expressions")
+3. [Loops](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/03.Loops "Loops")
+4. [Conditional Statements](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/04.ConditionalStatements "Conditional Statements")
+5. [Arrays](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/05.Arrays "Arrays")
+6. [Functions](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/06.Functions "Functions")
+7. [Using Objects](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/07.Using%20Objects "Using Objects")
+8. [Array Methods](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/08.ArrayMethods "Array Methods")
+9. [Strings](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/09.Strings "Strings")
+10. [Regular Expressions](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Fundamentals/10.RegularExpressions "Regular Expressions")
 11. Exam *(11/06/2015)*
 
 
+### JavaScript OOP ###
+*Duration: 15/06/2015 - 07/07/2015*
+
+1. Functions declarations, expressions and IIFEs
+2. Scopes and Closures
+3. Classical Inheritance
+4. Prototype-based Inheritance
+5. Modules and Patterns
+6. Exam *(09/07/2015)*
+
+
+### JavaScript UI&DOM ###
+*Duration: 13/07/2015 - 04/08/2015*
+
+1. JavaScript and DOM - Course Introduction
+2. Document Object Model
+3. HTML5 Canvas
+4. Scalable Vector Graphics
+5. Animations with HTML5 Canvas
+6. DOM Operations
+7. Event Model
+8. jQuery Overview
+9. jQuery Plugins
+10. HTML Templates
+11. DOM Performance
+12. Exam *(06/08/2015)*
+
+
+### JavaScript Applications ###
+*Duration: 17/08/2015 - 07/09/2015*
+
+1. Introduction
+2. Best Practices for Writing JavaScript
+3. AMD and SystemJS
+4. Underscore.js Overview
+5. Web Storages
+6. Promises and asynchronous programming
+7. HTTP and AJAX
+8. Consuming Web Services
+9. Business Clouds for Persistent Data
+10. Unit Testing with Mocha, Chai and Sinon
+11. Simple SPA Applications with Sammy.js and jQuery
+6. Workshop - Creating SPA Apps
+7. Exam *(10/09/2015)*
+
+
+### High Quality Code ###
+*Duration: 17/06/2015 - 08/10/2015*
+
+1. Code Formatting
+2. Naming Identifiers
+3. Code Documentation and Comments
+4. Variables, Data, Expressions and Constants
+5. Control Flow, Conditional Statements Loops
+6. High-quality Methods
+7. High-quality classes
+8. Defensive Programming and Exceptions
+9. Code Tuning and Optimization
+10. Unit Testing
+11. Test-Driven Development
+12. Refactoring
+13. Debugging
+14. Development Tools
+15. Creational Patterns
+16. Structural Patterns
+17. Behavioral Patterns
+18. Mocking and JustMock
+19. Exam *(15/10/2015)*
+
+
+### Databases ###
+*Duration: 28/09/2015 - 19/10/2015*
+
+1. XML Basics
+2. Processing XML in .NET
+3. Processing JSON in .NET
+4. Databases Overview
+5. SQL Server and MySQL Introduction
+6. Databases
+7. Intro to SQL
+8. Advanced SQL
+9. Transact SQL
+10. ADO.NET
+11. Entity Framework
+12. Entity Framework Performance
+13. Entity Framework Code First
+14. Database Performance
+20. Exam *(23/10/2015)*
+
+### Data Structures and Algorithms ###
+*Duration: 26/10/2015 - 27/11/2015*
+
+1. DSA Complexity
+2. Linear Data Structures
+3. Trees and Traversals
+4. Dictionaries, Hash Tables and Sets
+5. Advanced Data Structures
+6. Data Structures Efficiency
+7. Recursion
+8. Combinatorics
+9. Searching and Sorting Algorithms
+10. Graphs Algorithms
+11. Exam *(04/12/2015)*
+
+
+### Web Services and Cloud ###
+*Duration: 27/10/2015 - 19/11/2015*
+
+1. Introduction to ASP.NET WebApi
+2. Consuming Web Services using C#
+3. Unit Testing Web Services
+3. Windows Communication Foundation
+4. Cloud Services
+6. Exam *(23/11/2015)*
