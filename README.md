@@ -74,12 +74,12 @@
 ### JavaScript OOP ###
 *Duration: 15/06/2015 - 07/07/2015*
 
-1. Functions declarations, expressions and IIFEs
-2. Scopes and Closures
-3. Classical Inheritance
-4. Prototype-based Inheritance
-5. Modules and Patterns
-6. Exam *(09/07/2015)*
+1. [Functions declarations, expressions and IIFEs](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20OOP/01.Functions%20declarions%2C%20expressions%20and%20IIFEs "Functions declarations, expressions and IIFEs")
+2. [Scopes and Closures](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20OOP/02.%20ScopesAndClosures "Scopes and Closures")
+3. [Classical Inheritance](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20OOP/03.ClassicalInheritancce "Classical Inheritance")
+4. [Prototype-based Inheritance](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20OOP/04.Prototype-based%20Inheritance "Prototype-based Inheritance")
+5. [Modules and Patterns](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20OOP/05.Modules%20and%20Patterns "Modules and Patterns")
+6. [Exam *(09/07/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20OOP/Exam "Exam (09/07/2015)")
 
 
 ### JavaScript UI&DOM ###
