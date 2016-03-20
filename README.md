@@ -105,16 +105,16 @@
 1. Introduction
 2. Best Practices for Writing JavaScript
 3. AMD and SystemJS
-4. Underscore.js Overview
-5. Web Storages
+4. [Underscore.js Overview](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Applications/04.%20Underscore.js%20overview "Underscore.js Overview")
+5. [Web Storages](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Applications/05.%20Web%20Storages "Web Storages")
 6. Promises and asynchronous programming
 7. HTTP and AJAX
 8. Consuming Web Services
 9. Business Clouds for Persistent Data
 10. Unit Testing with Mocha, Chai and Sinon
 11. Simple SPA Applications with Sammy.js and jQuery
-6. Workshop - Creating SPA Apps
-7. Exam *(10/09/2015)*
+6. [Workshop - Creating SPA Apps](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Applications/12.%20Workshop%20-%20Creating%20SPA%20Apps "Workshop - Creating SPA Apps")
+7. [Exam *(10/09/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20Applications/2015-09-10_Exam "Exam (10/09/2015)")
 
 
 ### High Quality Code ###
