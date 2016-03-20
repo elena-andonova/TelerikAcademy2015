@@ -85,18 +85,18 @@
 ### JavaScript UI&DOM ###
 *Duration: 13/07/2015 - 04/08/2015*
 
-1. JavaScript and DOM - Course Introduction
-2. Document Object Model
-3. HTML5 Canvas
-4. Scalable Vector Graphics
-5. Animations with HTML5 Canvas
-6. DOM Operations
-7. Event Model
-8. jQuery Overview
-9. jQuery Plugins
-10. HTML Templates
-11. DOM Performance
-12. Exam *(06/08/2015)*
+1. [JavaScript and DOM - Course Introduction](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/01.%20JavaScript%20and%20DOM%20-%20Course%20Introduction/slides "JavaScript and DOM - Course Introduction")
+2. [Document Object Model](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/02.%20Document%20Object%20Model "Document Object Model")
+3. [HTML5 Canvas](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/03.%20HTML5%20Canvas "HTML5 Canvas")
+4. [Scalable Vector Graphics](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/04.%20Scalable%20Vector%20Graphics "Scalable Vector Graphics")
+5. [Animations with HTML5 Canvas](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/06.%20Animations%20with%20HTML5%20Canvas "Animations with HTML5 Canvas")
+6. [DOM Operations](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/07.%20DOM%20Operations "DOM Operations")
+7. [Event Model](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/08.%20Event%20Model "Event Model")
+8. [jQuery Overview](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/09.%20jQuery%20Overview "jQuery Overview")
+9. [jQuery Plugins](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/10.%20jQuery%20Plugins "jQuery Plugins")
+10. [HTML Templates](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/11.%20HTML%20Templates "HTML Templates")
+11. [DOM Performance](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/12.%20DOM%20Performance "DOM Performance")
+12. [Exam *(06/08/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/JavaScript%20UI%20%26%20DOM/2015-08-06_Exam "Exam (06/08/2015)")
 
 
 ### JavaScript Applications ###
