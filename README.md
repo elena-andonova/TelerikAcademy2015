@@ -52,5 +52,6 @@
 1. [CSS Overview](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/CSS/01.CSSOverview/01.CSSOverview "CSS Overview")
 2. [CSS Presentation](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/CSS/02.CSSPresentation "CSS Presentation")
 3. [CSS Layout](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/CSS/03.CSSLayout/03.CSSLayout "CSS Layout")
+4. [Exam *(13/05/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/CSS/Exam "Exam")
 
 
