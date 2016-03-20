@@ -35,4 +35,12 @@
 4. [OOP Principles - Part 1](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/04.OOPPrinciplesPart%201 "OOP Principles - Part 1")
 5. [OOP Principles - Part 2](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/05.OOPPrinciplesPart2 "OOP Principles - Part 2")
 6. [Common Type System](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/06.CommonTypeSystem "Common Type System")
-7. Exam *(06/04/2015)*
+7. [Exam *(06/04/2015)*](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%20OOP/Exam%20%2806.04.2015%29 "Exam (06/04/2015)")
+
+### HTML ###
+*Duration: 15/04/2015 - 22/04/2015*
+
+1. [HTML Fundamentals](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/HTML/01.HTMLFundamentals "HTML Fundamentals")
+2. [HTML Tables](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/HTML/02.HTMLTables "HTML Tables")
+3. [HTML Forms and Frames](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/HTML/03.HTMLForms "HTML Forms and Frames")
+4. [HTML Semantic](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/HTML/04.HTMLSemantic "HTML Semantic")
