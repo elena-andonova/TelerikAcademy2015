@@ -1,18 +1,14 @@
-## Mobile Application for iOS Project ##
+## Telerik Academy 2015-2016 ##
 
-### Concept ###
+### C# Part 1 ###
+#### *Duration: 08/01/2015 - 30/01/2015* ####
 
-The project represent a guide for cultural events(concerts/theatre/opera..) in Sofia.
-For the different categories, all places for the events will be presented in a list. And then again for each place, all  future events will be listed.
-
-### Functionalities ###
-
-- Registration, log-in and -out for the users
-- Registered users will have the option to add places/events to Favorites
-- Each place will be clickable and will redirect to a view with more detailed information about it
-- In the detailed view of the place, a navigation to the following will be available: all events, location of the place
-- Each event will be clickable and will redirect to a view with more detailed information about it
-- In the detailed view of the event, a navigation to the following will be available: buy a ticket, comments
-- The views for the places and the events will have Search and Filter option for user's convenience
+1. [Intro in Programming](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/01.Intro-Programming-Homework "Intro in Programming") 
+2. [Primitive Data Types and Variables](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/02.Primitive-Data-Types-and-Variables "Primitive Data Types and Variables")
+3. [Operators and Expressions](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/03.Operators-and-Expressions "Operators and Expressions")
+4. [Console Input/Output](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/04.Console-Input-Output "Console Input/Output")
+5. [Conditional Statements](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/05.Conditional%20Statements "Conditional Statements")
+6. [Loops](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/06.Loops "Loops")
+7. [Exam](https://github.com/elena-andonova/TelerikAcademy2015/tree/master/C%23%201/Exam "Exam ")
 
 
